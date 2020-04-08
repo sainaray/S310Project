@@ -1,0 +1,51 @@
+  
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>GLOBASE Guatemala</title>
+    </head>
+<body>
+    
+ 
+        <h1>GLOBASE Guatemala</h1>
+
+    <img src=https://kelley.iu.edu/images/bloomington/programs/full-time-mba/globase/vietnam-6-1536x768.jpg alt=Globase Students Image Title="Globase Students" width="600"
+        
+    <br>
+    
+<nav>
+    <a href="navigation.html">Navigate</a>
+    <a href="Homepage.html">Home</a>
+    <a href="Faculty_Page.html">Faculty</a>
+    <a href="Participant_page.html">Participant</a>
+    <a href=Leadership_team_page">Leadership team</a>
+</nav>
+
+<h2>Capture Weekly Meeting Agenda</h2>
+
+<p> Below is the information for the weekly agenda. </p>
+
+<br>
+    
+
+<p> Submit the most recent agenda below. </p>
+<form action="/action_page.php">
+  <input type="file" id="myFile" name="filename">
+  <input type="submit">
+</form>
+      
+    
+ <br><br><br><br><br><br><br><br><br><br>
+
+                                 
+<footer>
+    <hr>
+    <h3>
+<p> Team 15 Consulting </p>
+    </h3>
+</footer>
+
+   </body>
+   </html
