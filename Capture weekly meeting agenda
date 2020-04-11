@@ -1,4 +1,3 @@
-  
 <!DOCTYPE html>
 
 <html>
@@ -28,12 +27,25 @@
 <p> Below is the information for the weekly agenda. </p>
 
 <br>
-    
+<p> January 1, 2020 - Weekly Agenda <button type="button">View</button></p>
+<p> February 1, 2020 - Weekly Agenda <button type="button">View</button></p>
+<p> March 1, 2020 - Weekly Agenda <button type="button">View</button></p>
+<p> April 1, 2020 - Weekly Agenda <button type="button">View</button> </p>
+
+<br>
 
 <p> Submit the most recent agenda below. </p>
+
 <form action="/action_page.php">
-  <input type="file" id="myFile" name="filename">
-  <input type="submit">
+  <input type="file" id="myfile" name="myfile">
+<button onclick= "submit1()">Submit</button>
+
+<script>
+function submit1() {
+  alert("Agenda successfully submitted!");
+}
+</script>
+
 </form>
       
     
