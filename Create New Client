@@ -28,32 +28,32 @@
 	<table>
 	<tr>
 		<td>First Name : </td>
-		<td><input type="First Name" name= "" required> </td>
+		<td><input type="text" required> </td>
 	</tr>
 	
 	<tr>
 		<td>Last Name : </td>
-		<td><input type="Last Name" name= "" required> </td>
+		<td><input type="text" required> </td>
 	</tr>
 
 	<tr>
 		<td>Address : </td>
-		<td><input type="Address" name= "" required> </td>
+		<td><input type="text" required> </td>
 	</tr>
 
 	<tr>
 		<td>Phone Number : </td>
-		<td><input type="Phone Number" name= "" required> </td>
+		<td><input type="text" required> </td>
 	</tr>
 
 	<tr>
 		<td>Email : </td>
-		<td><input type="Email" name= "" required> </td>
+		<td><input type="text" required> </td>
 	</tr>
 
 	<tr>
 		<td>Gender : </td>
-		<td><input type="Gender" name= "" required> </td>
+		<td><input type="text" required> </td>
 	</tr>
 	</table>
 </form>
