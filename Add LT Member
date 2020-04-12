@@ -24,15 +24,26 @@
 
 <h2>Add LT Team Member</h2>
 
-<p> Below is the information for adding a new Leadership Team Member </p>
+<p> Below is the information for adding a new Leadership Team Member. You will need to enter the LT member information for this system to record the new group member. </p>
 
 <br>
     
 
 <p> Add a participant file and assign to the leadership </p>
+<p> <button type="button">Add New LT Member</button></p>
+
+<br>
+
+
 <form action="/action_page.php">
   <input type="file" id="myFile" name="filename">
-  <input type="submit">
+  <button onclick= "submit1()">Submit</button>
+<script>
+function submit1()
+{
+    alert("LT member successfully added");
+}
+</script>
 </form>
       
     
