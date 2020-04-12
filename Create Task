@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>GLOBASE Guatemala</title>
+    </head>
+<body>
+    
+ 
+        <h1>Leadership Team Page</h1>
+
+    <nav>
+    <a href="Home_page.html">Home</a>
+    <a href="Faculty_Page.html">Faculty</a>
+    <a href="Participant_page.html">Participant</a>
+    <a href="Leadership_team_page">Leadership team</a>
+    </nav>
+                                     
+    <img src=https://kelley.iu.edu/images/bloomington/programs/full-time-mba/globase/vietnam-6-1536x768.jpg alt=Globase Students Image Title="Globase Students" width="600">
+        
+    <br>
+    
+<h2>Create Task</h2>
+    <br>
+
+<h4>Please insert the necessary details required to create a specific task. First, please choose from the list of Tasks available. </h4>
+    
+    <h5> Don't leave out any information!</h5>
+
+    <br>
+    <form>
+       <fieldset>
+          <legend>Create Task</legend>
+          <p>
+             <label>Select the Task</label>
+             <select id = "myList">
+               <option value = "Select an Option">Select an Option</option>
+               <option value = "Student Selection">Student Selection</option>
+               <option value = "Client Selection">Client Selection</option>
+               <option value = "Syllabus Preparation">Syllabus Preparation</option>
+               <option value = "Course Logistics">Course Logistics</option>
+               <option value = "In-country Logistics">In-country Logistics</option>
+             </select>
+              <br>
+              <label> Enter the Task ID</label>
+              <input type="text" required> <br>
+              <label> Enter the Category ID</label>
+              <input type="text" required> <br>
+              <label> Enter the Offering ID </label>
+              <input type="text" required> <br>
+              <label> Enter the Status of the Task</label>
+              <input type="text" required> <br>
+              <button onclick= "submit1()">Submit Task</button>
+              
+              <script>
+                function submit1() {
+                    alert("Task has been submitted!")
+                }
+              
+              </script>
+            </p>
+       </fieldset>
+    </form>
+
+                                 
+<footer>
+    <hr>
+    <h3>
+        <p> Team 15 Consulting </p>
+        <br>
+    Kelley School of Business
+        
+    </h3>
+      </footer>
+
+</body>
+   </html>
