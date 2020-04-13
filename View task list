@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>GLOBASE Guatemala</title>
+        
+    </head>
+<body>
+    
+ 
+        <h1>Task Page</h1>
+
+    <nav>
+    <a href="Home_page.html">Home</a>
+    <a href="Faculty_Page.html">Faculty</a>
+    <a href="Participant_page.html">Participant</a>
+    <a href="Leadership_team_page">Leadership team</a>
+    </nav>
+                                     
+    <img src=https://kelley.iu.edu/images/bloomington/programs/full-time-mba/globase/vietnam-6-1536x768.jpg alt=Globase Students Image Title="Globase Students" width="600">
+        
+    <br>
+    
+<h2>Task List</h2>
+    <br>
+
+<h4>Below you will be able to view the current tasks that have been completed and not completed.</h4>
+    
+    <h3>To-Do (Not Completed)</h3>
+        
+        <ol>
+            <li>Create a team member</li>
+            <li>View leadership team</li>
+            <li>View the daily agenda</li>
+        </ol>
+    
+    <h3>Completed Tasks</h3>
+        
+        <ul>
+            <li>Record all participants</li>
+            <li>Record daily agenda</li>
+        </ul>
+
+
+                                 
+    <footer>
+    <hr>
+    <h3>
+        <p> Team 15 Consulting </p>
+        <br>
+    Kelley School of Business
+        
+    </h3>
+      </footer>
+
+</body>
+   </html>
