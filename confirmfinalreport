@@ -1,0 +1,68 @@
+<html>
+    
+    <head>
+        <title>GLOBASE Guatemala</title>
+    </head>
+<body>
+    
+ 
+        <h1>GLOBASE Guatemala</h1>
+
+    <nav>
+    <a href="Homepage.html">Home</a>
+    <a href="Faculty_Page.html">Faculty</a>
+    <a href="Participant_page.html">Participant</a>
+    <a href=Leadership_team_page">Leadership team</a> </nav></a> 
+    
+    <br>                             
+                                 
+    <img src=https://kelley.iu.edu/images/bloomington/programs/full-time-mba/globase/vietnam-6-1536x768.jpg alt=Globase Students Image Title="Globase Students" width="600"
+        
+    <br>
+
+<br>
+
+<h2>Confirm Final Report</h2>
+<br>
+
+
+<p> <b><p style="background-color : yellow;"> &#9745; represent final report was submitted.  Click Send to remind the team about final report submission </b> </p>
+
+
+
+<br>                                           
+<ul>
+  <li>Team 1</li>
+    <ul>
+      <li>&#9745;Final Report<button type="button">View</button></li>
+      <li>Final report reminder <button type="button">Send</button> </li> </ul>
+  <li>Team 2</li>
+    <ul>
+      <li>&#9745;Final Report<button type="button">View</button></li>
+      <li>Final report reminder  <button type="button">Send</button> </li> </ul>
+  <li>Team 3</li>
+    <ul>
+      <li>&#9745;Final Report<button type="button">View</button></li>
+      <li>Final report reminder  <button type="button">Send</button> </li> </ul>
+  <li>Team 4</li>
+    <ul>
+      <li>&#9745;Final Report<button type="button">View</button></li> 
+      <li>Final report reminder  <button type="button">Send</button> </li> </ul>
+  <li>Team 5</li>
+    <ul>
+      <li>Final Report<button type="button">View</button></li>
+      <li>Final report reminder  <button type="button">Send</button> </li>
+</ul> 
+ <br><br>
+
+
+                                 
+<footer>
+    <hr>
+    <h2>
+<p> Team 15 Consulting
+    <h3> Kelley School of Business</a>
+</footer>
+
+   </body>
+   </html>
