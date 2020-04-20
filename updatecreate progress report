@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>GLOBASE Guatemala</title>
+    </head>
+<body>
+    
+ 
+        <h1>GLOBASE Guatemala</h1>
+
+    <nav>
+    <a href="Homepage.html">Home</a>
+    <a href="Faculty_Page.html">Faculty</a>
+    <a href="Participant_page.html">Participant</a>
+    <a href=Leadership_team_page">Leadership team</a> </nav></a> 
+    
+    <br>                             
+                                 
+    <img src=https://kelley.iu.edu/images/bloomington/programs/full-time-mba/globase/vietnam-6-1536x768.jpg alt=Globase Students Image Title="Globase Students" width="600"
+        
+    <br>
+
+<br>
+
+<h2>Progress Report</h2>
+<br>
+<br>
+                                            
+<ul>
+  <li>Team 1</li>
+    <ul>
+      <li>Progress Report <button type="button">View</button></li>
+      <li>Update/Create Progress Report <button type="button">Update/Create</button> </li> </ul>
+  <li>Team 2</li>
+    <ul>
+      <li>Progress Report <button type="button">View</button></li>
+      <li>Update/Create Progress Report <button type="button">Update/Create</button> </li> </ul>
+  <li>Team 3</li>
+    <ul>
+      <li>Progress Report <button type="button">View</button></li>
+      <li>Update/Create Progress Report <button type="button">Update/Create</button> </li> </ul>
+  <li>Team 4</li>
+    <ul>
+      <li>Progress Report <button type="button">View</button></li> 
+      <li>Update/Create Progress Report <button type="button">Update/Create</button> </li> </ul>
+  <li>Team 5</li>
+    <ul>
+      <li>Progress Report <button type="button">View</button></li>
+      <li>Update/Create Progress Report <button type="button">Update/Create</button> </li>
+</ul> 
+ <br><br>
+
+
+                                 
+<footer>
+    <hr>
+    <h2>
+<p> Team 15 Consulting
+    <h3> Kelley School of Business</a>
+</footer>
+
+   </body>
+   </html>
