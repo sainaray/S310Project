@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>GLOBASE Guatemala</title>
+    </head>
+<body>
+    
+ 
+        <h1>Leadership Team Page</h1>
+
+    <nav>
+    <a href="View_Task_List.html">Home</a>
+    <a href="Faculty_Page.html">Faculty</a>
+    <a href="Participant_page.html">Participant</a>
+    <a href="Leadership_team_page">Leadership team</a>
+    </nav>
+                                     
+    <img src=https://kelley.iu.edu/images/bloomington/programs/full-time-mba/globase/vietnam-6-1536x768.jpg alt=Globase Students Image Title="Globase Students" width="600">
+        
+    <br>
+    
+<h2>Record Student Interview Summary</h2>
+    <br>
+
+<h4>Please record the student's interview below. Start by entering the Student Name and selecting the status of the student as either "Accepted" or "Rejected". </h4>
+    
+    <h5> Don't leave out any information!</h5>
+
+    <br>
+    <form>
+       <fieldset>
+           <legend>Record Student Interview Summary </legend>
+          <p>
+             <label>Name:</label>
+             <input type="text" required>
+             <label>Application Status</label>
+             <select id = "myList">
+               <option value = "Select an Option">Select an Option</option>
+               <option value = "Accepted">Accepted</option>
+               <option value = "Rejected">Rejected</option>
+             </select> <br> <br>
+              <label>Student ID:</label>
+              <input type="text" required>
+              <label>Offering ID:</label>
+              <input type="text" required> <br> <br>
+              <label>School Year: </label>
+              <input type="number" required>
+              <label>Interview Date:</label>
+              <input type="date" required> <br> <br>
+              <style>
+                  label textarea{
+                      vertical-align: top;
+                  }
+              </style>
+              <label>Interview Notes/Summary:
+                  <textarea name="interview_notes" rows="10" cols="70"> Enter your notes here. </textarea> </label> <br> <br> 
+              <button onclick= "submit1()">Submit Student Interview</button>
+              <script> 
+                function submit1() {
+                    alert("Student Interview has been successfully submitted!")
+                }
+              
+              </script>
+            </p>
+       </fieldset>
+    </form>
+
+                                 
+<footer>
+    <hr>
+    <h3>
+        <p> Team 15 Consulting </p>
+        <br>
+    Kelley School of Business
+        
+    </h3>
+      </footer>
+
+</body>
+   </html>
