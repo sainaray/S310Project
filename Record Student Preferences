@@ -1,0 +1,148 @@
+<html>
+    
+    <head>
+        <title>Record Student Preferences</title>
+    </head>
+<body>
+    
+ 
+        <h1>Record Student Preferences</h1>
+
+    <nav>
+    <a href="Homepage.html">Home</a>
+    <a href="Faculty_Page.html">Faculty</a>
+    <a href="Participant_page.html">Participant</a>
+    <a href=Leadership_team_page">Leadership team</a> </nav></a> 
+                                 
+  <br>                             
+                                 
+    <img src=https://kelley.iu.edu/images/bloomington/programs/full-time-mba/globase/vietnam-6-1536x768.jpg alt=Globase Students Image Title="Globase Students" width="600"
+        
+    <br>  
+    
+<br> <br> <br>  
+<a>
+
+<form>
+<a></a>
+       <fieldset>
+          <legend>Below you can rank your preference of each client</legend>
+*Please only select one client per number ranking
+
+<br></a> <br></a>
+  
+<label> Mike Iacono    </label>
+                         
+<select id="Ranking">
+    <option value="1">1</option>
+    <option value="2">2</option> 
+    <option value="3">3</option>
+    <option value="4">4</option> 
+    <option value="5">5</option>  
+    <option value="6">6</option>
+    
+</select id="Rankingt">
+
+<br> <br></a>
+<label> Connor Dempsey</label>
+                          
+  <select id="Ranking">
+    <option value="1">1</option>
+    <option value="2">2</option> 
+    <option value="3">3</option>
+    <option value="4">4</option> 
+    <option value="5">5</option>  
+    <option value="6">6</option>
+
+                     </select id="Ranking">
+<br> <br></a>
+<label> Catherine Jones</label>
+
+<select id="Rankingt">
+    <option value="1">1</option>
+    <option value="2">2</option> 
+    <option value="3">3</option>
+    <option value="4">4</option> 
+    <option value="5">5</option>  
+    <option value="6">6</option>                                               
+</select id="Ranking">
+<br> <br></a>
+                          
+<label> Tom Brady</label>  
+
+<select id="Ranking">
+    <option value="1">1</option>
+    <option value="2">2</option> 
+    <option value="3">3</option>
+    <option value="4">4</option> 
+    <option value="5">5</option>  
+    <option value="6">6</option>  
+                     
+</select id="Ranking">
+<br> <br></a>
+                          
+<label> Joe Montana</label>  
+
+<select id="Ranking">
+    <option value="1">1</option>
+    <option value="2">2</option> 
+    <option value="3">3</option>
+    <option value="4">4</option> 
+    <option value="5">5</option>  
+    <option value="6">6</option>  
+                     
+</select id="Ranking">
+<br> <br></a>
+                          
+<label> Lindsey Vohn</label>  
+
+<select id="Ranking">
+    <option value="1">1</option>
+    <option value="2">2</option> 
+    <option value="3">3</option>
+    <option value="4">4</option> 
+    <option value="5">5</option>  
+    <option value="6">6</option>  
+                     
+</select id="Ranking">
+<br> <br></a>
+                          
+
+             
+              <button onclick= "submit1()">Record Preferences</button> <br> <br></a>
+            
+                 <button onclick= "submit2()">View Calendar</button>        
+                                          
+              <script>
+                function submit1() {
+                    alert("Preferences have been recorded!")
+                }
+              
+              </script>
+                                                           
+            <script>
+                function submit2() {
+                    alert("Calendar has been downloaded!")              }
+              
+              </script>    
+                                                           
+            </p>
+       </fieldset>
+    </form>
+                                                           
+<br> <br>       
+                                                          
+<footer>
+    <hr>
+    <h3>
+        <p> Team 15 Consulting </p>
+        <br>
+    Kelley School of Business
+        
+    </h3>
+      </footer>
+
+</body>
+   </html>       
+    
+                                                                                            
