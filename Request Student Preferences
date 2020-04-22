@@ -69,6 +69,9 @@
      <label for="No">No</No> </div>             <br>                                    
                     
     <button onclick= "submit1()">Generate Student Preference Info</button>
+                                <br></a> <br></a>
+                                
+      <button onclick= "submit3()">View Calendar</button>                           
     
     <script>
                 function submit1() {
@@ -76,6 +79,14 @@
                 }                            
                                 
 </script>
+         <script>
+                                                                                
+     function submit3() {
+                    alert("Calendar has been downloaded!")
+                }                            
+                                
+</script>                                                                              
+                                                                                  
             </p>
        </fieldset>
     </form>
