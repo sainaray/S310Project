@@ -25,105 +25,28 @@
 
 <form>
        <fieldset>
-          <legend>Below you can enter in student information</legend>
-          
-
-                         
-<label> Student List</label>
-                         
-<select id="Student List">
-    <option value="Mike Smith">Mike Smith</option>
-    <option value="Sam Jefferson">Sam Jefferson</option> 
-    <option value="Jessica Orozco">Jessica Orozco</option>
-    <option value="Patti Silvas">Patti Silva</option> 
-    <option value="Aaron Donovan">Aaron Donovan</option>  
-    <option value="Sally Soto">Sally Soto</option>
-    <option value="Connor Aguero">Connor Aguero</option>
-    <option value="jeremy Sanchez">Jeremy Sanchez</option>
-    <option value="Niko Rooney">Niko Rooney</option>
-</select id="Student List">
-
-<br>
-<br>
-                               
-<label> Generate Interview Notes?</label>
-
-<div>
-    <input type="checkbox" id="Yes" name="Yes"
-                                unchecked>
-     <label for="Yes">Yes</Yes> </div>
-  <div>
-    <input type="checkbox" id="No" name="No"
-                                unchecked>
-     <label for="No">No</No> </div>             <br>   
-                    
-    <label> Generate Application Details?</label>
-
-<div>
-    <input type="checkbox" id="Yes" name="Yes"
-                                unchecked>
-     <label for="Yes">Yes</Yes> </div>
-  <div>
-    <input type="checkbox" id="No" name="No"
-                                unchecked>
-     <label for="No">No</No> </div>             <br>                                    
-                    
-    <button onclick= "submit1()">Generate Student Preference Info</button>
-                                <br></a> <br></a>
-                                
-      <button onclick= "submit3()">View Calendar</button>                           
+          <legend>Below you can enter in date you would like the batch email to be sent</legend> <br>
     
-    <script>
-                function submit1() {
-                    alert("Student Preference Info has been generated into a pdf!")
-                }                            
-                                
-</script>
-         <script>
-                                                                                
-     function submit3() {
-                    alert("Calendar has been downloaded!")
-                }                            
-                                
-</script>                                                                              
-                                                                                  
-            </p>
-       </fieldset>
-    </form>
-                                                     
-<br><br>
 
-<a></a>
-<form>
-<fieldset>                                             
- <legend>Below you can assign students to a team</legend>
-          </a>
-          <label> Enter the Student Name</label>
-                                                 <br>            
-              <input type="text" required> <br>
-              <br></a>                                                                        
- 
-              
-              <label> Enter the Team Name</label>
-                                                 <br>            
-              <input type="text" required> <br>
-              <br></a>
-                                
-                                
-              </a>
-             
-              <button onclick= "submit2()">Assign Student to team</button>
-              
+<form action="https://example.com">
+  <label>
+    Enter the Send Date:
+    <input type="date" name="bday">
+  </label>
+
+                                  <br>     <br>   </a>                       
+        <button onclick= "submit1()">Set the Send Date</button> </a>            
+                     
+                                          
               <script>
-                function submit2() {
-                    alert("Student has been assigned!")
-                }
-              
-              </script>
-            </p>
+                function submit1() {
+                    alert("Send date has been set!") }
+    </script>
+
+  </p>
        </fieldset>
     </form>
-                                                                      
+                                                           
 <br> <br>       
                                                           
 <footer>
@@ -139,8 +62,5 @@
 </body>
    </html>       
     
-                                 
-
-                                
-                                                          
+                                                                                
                                 
