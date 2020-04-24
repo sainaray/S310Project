@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>GLOBASE Guatemala</title>
+        
+    </head>
+<body>
+    
+ 
+        <h1>Peer Evaluations Captured</h1>
+
+    <nav>
+    <a href="Home_page.html">Home</a>
+    <a href="Faculty_Page.html">Faculty</a>
+    <a href="Participant_page.html">Participant</a>
+    <a href="Leadership_team_page">Leadership team</a>
+    </nav>
+                                     
+    <img src=https://kelley.iu.edu/images/bloomington/programs/full-time-mba/globase/vietnam-6-1536x768.jpg alt=Globase Students Image Title="Globase Students" width="600">
+        
+    <br>
+    
+<h2>Good Peer Evaluations</h2>
+<h4>Below are the scores that will be discarded</h4>
+    <br>
+    <div class="Good Evaluations">
+    <ul>John Smith 100%</ul>
+    <ul>Theresa Doe 90%</ul>
+    <ul>Jimmy Guida 80%</ul>
+    <ul>Amber Jacobson 90%</ul>
+    <ul>Annie Jones 100%</ul>
+    <ul>Evan White 90%</ul>
+    <ul>Jack Friskney 100%</ul>
+    <ul>Nick Hanna 80%</ul>
+    </div>
+    <br>
+    
+<h2>Bad Peer Evaluations</h2>
+<h4>Below are the scores that did't meet the threshold of 70% and will be sent to the professor.</h4>    
+    <br>
+    <div class="Bad Evaluations">
+    <ul>Chad Simmons 50%</ul>
+    <ul>John Benner 50%</ul>
+    <ul>Zach Mathes 60%</ul>
+    <ul>Sue Lee 60%</ul>
+    <ul>Aaron Kendricks 50%</ul>
+    <ul>Gerard Squires 50%</ul>
+
+    </div>
+    <br>
+                                 
+    <footer>
+    <hr>
+    <h3>
+        <p> Team 15 Consulting </p>
+        <br>
+    Kelley School of Business
+        
+    </h3>
+      </footer>
+
+</body>
+   </html>
