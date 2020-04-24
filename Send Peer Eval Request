@@ -43,6 +43,7 @@
               <input type="text" required> <br>
                <label> Enter a Score of Team Member #1</label>
                 <select id="Evaluation Score">
+                  <option value=" "> </option>
                   <option value="50%">50%</option>
                   <option value="60%">60%</option> 
                   <option value="70%">70%</option>
@@ -57,6 +58,7 @@
                 <input type="text" required> <br>
               <label> Enter the Score of Team Member #2:</label>
                 <select id="Evaluation Score">
+                  <option value=" "> </option>
                   <option value="50%">50%</option>
                   <option value="60%">60%</option> 
                   <option value="70%">70%</option>
@@ -71,6 +73,7 @@
                 <input type="text" required> <br>    
               <label> Enter the Score of Team Member #3:</label>
                 <select id="Evaluation Score">
+                  <option value=" "> </option>
                   <option value="50%">50%</option>
                   <option value="60%">60%</option> 
                   <option value="70%">70%</option>
@@ -85,6 +88,7 @@
                 <input type="text" required> <br>    
               <label> Enter the Score of Team Member #4:</label>
                 <select id="Evaluation Score">
+                  <option value=" "> </option>
                   <option value="50%">50%</option>
                   <option value="60%">60%</option> 
                   <option value="70%">70%</option>
@@ -99,6 +103,7 @@
                 <input type="text" required> <br>
               <label> Enter the Score of Team Member #5:</label>     
                 <select id="Evaluation Score">
+                  <option value=" "> </option>
                   <option value="50%">50%</option>
                   <option value="60%">60%</option> 
                   <option value="70%">70%</option>
