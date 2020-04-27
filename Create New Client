@@ -19,40 +19,51 @@
     <a href="Homepage.html">Home</a>
     <a href="Faculty_Page.html">Faculty</a>
     <a href="Participant_page.html">Participant</a>
-    <a href=Leadership_team_page">Leadership team</a>
+    <a href="Leadership_team_page">Leadership team</a>
 </nav>
 
 <h2>New Client Form</h2>
+    <p>Fill out the information to create a new client.</p>
 
+    <h3>Company Information</h3>
 <form>
 	<table>
+    <tr>
+		<td>Company Name: </td>
+		<td><input type="text" required> </td>
+	</tr>
+    <tr>
+		<td>Semester (eg SP20, FA20): </td>
+		<td><input type="text" required> </td>
+	</tr>
+    <tr>
+		<td>Address: </td>
+		<td><input type="text" required> </td>
+	</tr>
+    </table>
+    
+<h3>Point of Contact Information</h3>
+    <table>
+    <tr>
+		<td>Title (eg Mr., Ms., etc.): </td>
+		<td><input type="text" required> </td>
+	</tr>
 	<tr>
-		<td>First Name : </td>
+		<td>First Name: </td>
 		<td><input type="text" required> </td>
 	</tr>
 	
 	<tr>
-		<td>Last Name : </td>
+		<td>Last Name: </td>
 		<td><input type="text" required> </td>
 	</tr>
 
 	<tr>
-		<td>Address : </td>
+		<td>Phone Number: </td>
 		<td><input type="text" required> </td>
 	</tr>
-
 	<tr>
-		<td>Phone Number : </td>
-		<td><input type="text" required> </td>
-	</tr>
-
-	<tr>
-		<td>Email : </td>
-		<td><input type="text" required> </td>
-	</tr>
-
-	<tr>
-		<td>Gender : </td>
+		<td>Email: </td>
 		<td><input type="text" required> </td>
 	</tr>
 	</table>
