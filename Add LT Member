@@ -34,13 +34,13 @@
           <legend>Add a New Leadership Team Member</legend>
           <p>
               <br>
-              <label> Enter the Leader ID</label>
+              <label>Title (Mr., Ms.)</label>
               <input type="text" required> <br>
-              <label> Enter the Name of the Leadership Team</label>
+              <label>First Name</label>
               <input type="text" required> <br>
-              <label> Enter the Offering ID </label>
+              <label>Last Name</label>
               <input type="text" required> <br>
-              <label> Enter the new members Name</label>
+              <label>School Year (1, 2)</label>
               <input type="text" required> <br>
               <button onclick= "submit1()">Add LT Member</button>
               
