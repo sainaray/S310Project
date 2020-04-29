@@ -10,7 +10,7 @@
  
         <h1>GLOBASE Guatemala</h1>
 
-    <img src=https://kelley.iu.edu/images/bloomington/programs/full-time-mba/globase/vietnam-6-1536x768.jpg alt=Globase Students Image Title="Globase Students" width="600"
+    <img src=https://kelley.iu.edu/images/bloomington/programs/full-time-mba/globase/vietnam-6-1536x768.jpg alt=Globase Students Image Title="Globase Students" width="600">
         
     <br>
     
@@ -19,20 +19,47 @@
     <a href="Homepage.html">Home</a>
     <a href="Faculty_Page.html">Faculty</a>
     <a href="Participant_page.html">Participant</a>
-    <a href=Leadership_team_page">Leadership team</a>
+    <a href="Leadership_team_page">Leadership team</a>
 </nav>
 
 <h2>Capture Weekly Meeting Agenda</h2>
 
-<p> Below is the information for the weekly agenda. </p>
+<p> Below is the information for the weekly agenda. Click a panel with to view that week's agenda. </p>
 
 <br>
-<p> January 1, 2020 - Weekly Agenda <button type="button">View</button></p>
-<p> February 1, 2020 - Weekly Agenda <button type="button">View</button></p>
-<p> March 1, 2020 - Weekly Agenda <button type="button">View</button></p>
-<p> April 1, 2020 - Weekly Agenda <button type="button">View</button> </p>
+    <button class="accordion">
+          January 13, 2020 - Weekly Agenda 
+      </button>
+        <div class="panel">
+            <p>The agenda for this week is to first set up a meeting with the client and to introduce the team to our client. Before the client meeting, I would like each team member to independently research the client, the client's market offerings, and the client's customer.</p>      
+        </div>
+    <br>
+    <br>
+<button class="accordion">
+          January 20, 2020 - Weekly Agenda 
+      </button>
+        <div class="panel">
+            <p>The agenda for this week is to gather requirements from the client. Now that we know more about the client, I would like the team to identify the main problem that the client is facing and start thinking of questions to ask the client.</p>      
+        </div>
+    <br>
+    <br>
+<button class="accordion">
+          January 27, 2020 - Weekly Agenda 
+      </button>
+        <div class="panel">
+            <p>The agenda for this week is to set up meetings with the client to ask questions. I would like the team to be familiarized with OneNote so that they can be equipped to take notes and start diagramming. I would also like to assess the information gathered by the team by the end of the week to see if the team is asking the right questions.</p>      
+        </div>
+    <br>
+    <br>
+<button class="accordion">
+          February 3, 2020 - Weekly Agenda 
+      </button>
+        <div class="panel">
+            <p>The agenda for this week is to start brainstorming with possible solutions. I would like the team to meet up minimum 3 times this week to discuss solutions. I would also like for at least 1 team member to serve as "devil's advocate" so that "groupthink" is minimized. By the end of the week, I want to hear all the brainstormed solutions so that I can assess them.</p>      
+        </div>
 
 <br>
+    <br>
 
 <p> Submit the most recent agenda below. </p>
 
@@ -61,3 +88,59 @@ function submit1() {
 
    </body>
    </html
+    
+     <!-- STYLE FOR ACCORDION-->
+    <style>
+              .accordion {
+                  background-color: #eee;
+                  color: #444;
+                  cursor: pointer;
+                  padding: 18px;
+                  width: 100%;
+                  text-align: left;
+                  border: none;
+                  outline: none;
+                  transition: 0.4s;
+              }
+              .active, .accordion:hover {
+                  background-color: #ccc;
+              }
+              .panel {
+                  padding: 0 18px;
+                  background-color: gainsboro;
+                  display: none;
+                  overflow: hidden;
+            }
+            .accordion:after {
+              content: '\02795'; /* Unicode character for "plus" sign (+) */
+              font-size: 13px;
+              color: #777;
+              float: right;
+              margin-left: 5px;
+            }
+
+            .active:after {
+              content: "\2796"; /* Unicode character for "minus" sign (-) */
+            }
+      </style>
+    
+    <!-- JAVASCRIPT FOR ACCORDION-->
+      <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+      </script>
