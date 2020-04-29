@@ -31,28 +31,26 @@
 
 
 <br>                                           
-<ul>
-  <li>Team 1</li>
-    <ul>
-      <li>&#9745;Final Report<button type="button">View</button></li>
-      <li>Final report reminder <button type="button">Send</button> </li> </ul>
-  <li>Team 2</li>
-    <ul>
-      <li>&#9745;Final Report<button type="button">View</button></li>
-      <li>Final report reminder  <button type="button">Send</button> </li> </ul>
-  <li>Team 3</li>
-    <ul>
-      <li>&#9745;Final Report<button type="button">View</button></li>
-      <li>Final report reminder  <button type="button">Send</button> </li> </ul>
-  <li>Team 4</li>
-    <ul>
-      <li>&#9745;Final Report<button type="button">View</button></li> 
-      <li>Final report reminder  <button type="button">Send</button> </li> </ul>
-  <li>Team 5</li>
-    <ul>
-      <li>Final Report<button type="button">View</button></li>
-      <li>Final report reminder  <button type="button">Send</button> </li>
-</ul> 
+    <p><strong>Team 1</strong><br>
+      &#9745;Final Report<button type="button">View</button><br>
+      Final report reminder <button type="button">Send</button> </p>
+    
+    <p><strong>Team 2</strong><br>
+      &#9745;Final Report<button type="button">View</button><br>
+      Final report reminder <button type="button">Send</button> </p>
+                                                 
+     <p><strong>Team 3</strong><br>
+      &#9745;Final Report<button type="button">View</button><br>
+      Final report reminder <button type="button">Send</button> </p>
+                                                 
+    <p><strong>Team 4</strong><br>
+      &#9745;Final Report<button type="button">View</button><br>
+      Final report reminder <button type="button">Send</button> </p>
+                                                 
+    <p><strong>Team 5</strong><br>
+      &#9745;Final Report<button type="button">View</button><br>
+      Final report reminder <button type="button">Send</button> </p>
+  
  <br><br>
 
 
