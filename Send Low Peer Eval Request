@@ -54,24 +54,13 @@ table, th, td {
 </style>
     </head>
 <body>
-    
- 
-        <h1>Professor Page</h1>
 
-    <nav>
-    <a href="Home_page.html">Home</a>
-    <a href="Faculty_Page.html">Faculty</a>
-    <a href="Participant_page.html">Participant</a>
-    <a href="Leadership_team_page">Leadership team</a>
-    </nav>
-                                     
-    <img src=https://kelley.iu.edu/images/bloomington/programs/full-time-mba/globase/vietnam-6-1536x768.jpg alt=Globase Students Image Title="Globase Students" width="600">
-        
-    <br>
-    
-<h2>View Low Evaluation Scores</h2>
 
-    <h4>Below are the students who received a peer evaluation score below the threshold. The calculation for the final grade is now (evaluation score) * (final score) = New Score. Below 80% will be an automatic 25% deduction in the grade. By pressing Confirm, these scores will be sent to the professor.</h4>
+    
+<h1>Low Evaluation Scores</h1>
+
+    <p>Below are the students who received a peer evaluation score below the 90% threshold. The calculation for the final grade is now (evaluation score) * (final score) = New Score. Below 80% will be an automatic 25% deduction in the grade.<p>
+    <p>Click the "Download Report" button to access a full report of the team.</p>
     <br>
 
  <table>
@@ -89,10 +78,10 @@ table, th, td {
             <td><b>80.75%</b></td>
         </tr>
  </table>
-          <button onclick= "submit1()">Confirm</button>
+          <button onclick= "submit1()">Download Report</button>
             <script>
                 function submit1() {
-                    alert("Low scores for Team 1 have been submitted to the professor!")
+                    alert("Low scores for Team 1 have been downloaded!")
                 }
             </script>
      <br>
@@ -124,10 +113,10 @@ table, th, td {
             <td><b>55%</b></td>
         </tr>    
 </table>
-<button onclick= "submit2()">Confirm</button>
+<button onclick= "submit2()">Download Report</button>
             <script>
                 function submit2() {
-                    alert("Low scores for Team 2 have been submitted to the professor!")
+                    alert("Low scores for Team 2 have been downloadedd!")
                 }
             </script>
 <br>
@@ -154,10 +143,10 @@ table, th, td {
         <td><b>68%</b></td>
     </tr>
 </table>
-<button onclick= "submit3()">Confirm</button>
+<button onclick= "submit3()">Download Report</button>
             <script>
                 function submit3() {
-                    alert("Low scores for Team 3 have been submitted to the professor!")
+                    alert("Low scores for Team 3 have been downloaded!")
                 }
             </script>
 <br>
@@ -184,10 +173,10 @@ table, th, td {
         <td><b>76.5%</b></td>
     </tr>
 </table>
-<button onclick= "submit4()">Confirm</button>
+<button onclick= "submit4()">Download Report</button>
             <script>
                 function submit4() {
-                    alert("Low scores for Team 4 have been submitted to the professor!")
+                    alert("Low scores for Team 4 have been downloaded!")
                 }
             </script>
 <br>
@@ -207,10 +196,10 @@ table, th, td {
         <td><b>75%</b></td>
     </tr>
 </table>
-<button onclick= "submit5()">Confirm</button>
+<button onclick= "submit5()">Download Report</button>
             <script>
                 function submit5() {
-                    alert("Low scores for Team 5 have been submitted to the professor!")
+                    alert("Low scores for Team 5 have been downloaded!")
                 }
             </script>
 
