@@ -64,9 +64,54 @@ table, th, td {
     <br>
 <h2>Captured Peer Evaluations</h2>
 <h4>Below are the peer evaluation results for each team. Click the "Send Low Scores" Button for the system to make the necessary grade adjustments</h4>
-    
+
+<table>
+    <h3>Team 1 Scores</h3>
+     <tr>
+        <th>Team Member</th>  
+        <th>Final Team Grade</th>  
+        <th>Peer Eval Grade</th>
+        <th>Send to professor?</th>
+    </tr>
+    <tr>
+        <td>Kerri King</td>
+        <td>95%</td>
+        <td>100%</td>
+        <td>no</td>
+    </tr>
+    <tr>
+        <td>LeShawn Livingston</td>
+        <td>95%</td>
+        <td>95%</td>
+        <td>no</td>
+    </tr>
+    <tr>
+        <td>Maria Martinez</td>
+        <td>95%</td>
+        <td>100%</td>
+        <td>no</td>
+    </tr>
+      <tr>
+        <td>Ni Nguyen</td>
+        <td>95%</td>
+        <td>90%</td>
+        <td>no</td>
+    </tr>
+    <tr>
+        <td>Oliver O'Connel</td>
+        <td>95%</td>
+        <td>85%</td>
+        <td>yes</td>
+    </tr>
+</table>
+                <button onclick= "submit3()">Send Low Scores</button>
+            <script>
+                function submit3() {
+                    alert("All scores below the threshold have been sent")
+                }
+            </script>
  <table>
-      <h3>Team 1 Scores</h3>
+      <h3>Team 2 Scores</h3>
         <tr>
             <th>Team Member</th>  
             <th>Final Team Grade</th>  
@@ -74,31 +119,31 @@ table, th, td {
             <th>Send to professor?</th>
         </tr>
         <tr>
-         <td>Annie Jones</td>
+         <td>Amy Alfonso</td>
             <td>80%</td>
             <td>95%</td>
             <td>no</td>
         </tr>
         <tr>
-            <td>Chad Simmons</td>
+            <td>Christie Crawford</td>
             <td>80%</td>
             <td>85%</td>
             <td>yes</td>
         </tr>
         <tr>
-            <td>Gerard Squires</td>
+            <td>Fred Fitzgerald</td>
             <td>80%</td>
             <td>80%</td>
             <td>yes</td>
         </tr>
         <tr>
-            <td>John Smith</td>
+            <td>Jose Juarez</td>
             <td>80%</td>
             <td>100%</td>
             <td>no</td>
         </tr>
         <tr>
-         <td>Zach Mathes</td>
+         <td>Grace Ge</td>
             <td>80%</td>
             <td>below 80%</td>
             <td>yes</td>
@@ -114,7 +159,7 @@ table, th, td {
 <hr>
     
 <table>
-    <h3>Team 2 Scores</h3>
+    <h3>Team 3 Scores</h3>
      <tr>
         <th>Team Member</th>  
         <th>Final Team Grade</th>  
@@ -122,31 +167,31 @@ table, th, td {
         <th>Send to professor?</th>
     </tr>
      <tr>
-        <td>Amber Jacobson</td>
+        <td>Bill Baxter</td>
         <td>85%</td>
         <td>95%</td>
         <td>no</td>
     </tr>    
      <tr>
-        <td>Evan White</td>
+        <td>Dan Davidson</td>
         <td>85%</td>
         <td>90%</td>
         <td>no</td>
     </tr>    
      <tr>
-        <td>Nick Hanna</td>
+        <td>Eliza Ellington</td>
         <td>85%</td>
         <td>90%</td>
         <td>no</td>
     </tr>    
     <tr>
-        <td>John Benner</td>
+        <td>Heather Hills</td>
         <td>85%</td>
         <td>80%</td>
         <td>yes</td>
     </tr>    
     <tr>
-        <td>Sue Lee</td>
+        <td>Isaac Idris</td>
         <td>85%</td>
         <td>80%</td>
         <td>yes</td>
@@ -162,7 +207,7 @@ table, th, td {
 <hr>
 
 <table>
-    <h3>Team 3 Scores</h3>
+    <h3>Team 4 Scores</h3>
      <tr>
         <th>Team Member</th>  
         <th>Final Team Grade</th>  
@@ -170,42 +215,92 @@ table, th, td {
         <th>Send to professor?</th>
     </tr>
     <tr>
-        <td>Jimmy Guida</td>
-        <td>100%</td>
+        <td>Patti Pinkerton</td>
+        <td>90%</td>
         <td>100%</td>
         <td>no</td>
     </tr>
     <tr>
-        <td>Theresa Doe</td>
+        <td>Quinn Quarles</td>
+        <td>90%</td>
         <td>100%</td>
+        <td>no</td>
+    </tr>
+    <tr>
+        <td>Ronda Rousey</td>
+        <td>90%</td>
+        <td>below 80%</td>
+        <td>yes</td>
+    </tr>
+      <tr>
+        <td>Sam Smith</td>
+        <td>90%</td>
         <td>95%</td>
         <td>no</td>
     </tr>
     <tr>
-        <td>Jack Friskney</td>
-        <td>100%</td>
-        <td>100%</td>
-        <td>no</td>
-    </tr>
-      <tr>
-        <td>Amanda James</td>
-        <td>100%</td>
+        <td>Terry Tots</td>
         <td>90%</td>
-        <td>no</td>
-    </tr>
-    <tr>
-        <td>Aaron Kendricks</td>
-        <td>100%</td>
         <td>85%</td>
         <td>yes</td>
     </tr>
 </table>
+    <button onclick= "submit3()">Send Low Scores</button>
+            <script>
+                function submit3() {
+                    alert("All scores below the threshold have been sent")
+                }
+            </script>
+<br>
+<hr>
+
+ <table>
+      <h3>Team 5 Scores</h3>
+        <tr>
+            <th>Team Member</th>  
+            <th>Final Team Grade</th>  
+            <th>Peer Eval Grade</th>
+            <th>Send to professor?</th>
+        </tr>
+        <tr>
+         <td>Uriel Underwood</td>
+            <td>100%</td>
+            <td>95%</td>
+            <td>no</td>
+        </tr>
+        <tr>
+            <td>Veronica Vogel</td>
+            <td>100%</td>
+            <td>95%</td>
+            <td>no</td>
+        </tr>
+        <tr>
+            <td>Wendy Worst</td>
+            <td>below 80%</td>
+            <td>100%</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+            <td>Yoel Yates</td>
+            <td>100%</td>
+            <td>100%</td>
+            <td>no</td>
+        </tr>
+        <tr>
+         <td>Zoe Zachary</td>
+            <td>100%</td>
+            <td>100%</td>
+            <td>no</td>
+        </tr>    
+</table>
+    
 <button onclick= "submit3()">Send Low Scores</button>
             <script>
                 function submit3() {
                     alert("All scores below the threshold have been sent")
                 }
             </script>
+<hr>
     <br>
     <h3>Please confirm all these scores to be sent.</h3>
         <a href=Send%20Low%20Peer%20Evals.html>
