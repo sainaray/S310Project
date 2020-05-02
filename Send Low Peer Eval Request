@@ -57,6 +57,13 @@ table, th, td {
     
  
         <h1>Professor Page</h1>
+
+    <nav>
+    <a href="Home_page.html">Home</a>
+    <a href="Faculty_Page.html">Faculty</a>
+    <a href="Participant_page.html">Participant</a>
+    <a href="Leadership_team_page">Leadership team</a>
+    </nav>
                                      
     <img src=https://kelley.iu.edu/images/bloomington/programs/full-time-mba/globase/vietnam-6-1536x768.jpg alt=Globase Students Image Title="Globase Students" width="600">
         
@@ -68,7 +75,7 @@ table, th, td {
     <br>
 
  <table>
-      <h3>Roosiers Scores</h3>
+      <h3>Team 1 Scores</h3>
         <tr>
             <th>Team Member</th>  
             <th>Final Team Grade</th>  
@@ -104,7 +111,7 @@ table, th, td {
 <hr>
     
 <table>
-    <h3>Mercury Scores</h3>
+    <h3>Team 2 Scores</h3>
      <tr>
         <th>Team Member</th>  
         <th>Final Team Grade</th>  
@@ -134,7 +141,7 @@ table, th, td {
 <hr>
 
 <table>
-    <h3>Prototypers Scores</h3>
+    <h3>Team 3 Scores</h3>
      <tr>
         <th>Team Member</th>  
         <th>Final Team Grade</th>  
