@@ -276,8 +276,8 @@ table, th, td {
         </tr>
         <tr>
             <td>Wendy Worst</td>
-            <td>below 80%</td>
             <td>100%</td>
+            <td>below 80%</td>
             <td>yes</td>
         </tr>
         <tr>
