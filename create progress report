@@ -10,7 +10,6 @@
     <h5 class="thin">KELLEY SCHOOL OF BUSINESS</h5>
     <h2>Globase Guatamala</h2>
 </div>
-    
 
 <div class="navbar">
   <a href="#home">Home</a>
@@ -46,131 +45,115 @@
   </div> 
 </div>
 
-<h2>Capture Weekly Meeting Agenda</h2>
-    
-<p> As an LT member, upload the most recent agenda using the form below. You can view your past weekly agendas by clicking on the panels called "Weekly Agenda."</p>
 
-<form action="/action_page.php">
-       <fieldset>
-          <legend>Submit Weekly Agenda</legend>
-          <p>
-              <label> Enter Team Id (ex: T100000) </label>
-              <input type="text" required> <br>
-              <label> Enter Date (ex: 01/01/2020) </label>
-              <input type="text" required> <br>
-              <br>
-        <input type="file" id="myFile" name="filename">
-        <input type="submit" onclick="submitagenda()">
-               <script>
-                    function submitagenda() {
-                      alert("Agenda submitted!");
-                    }
-    </script>
-            </p>
-       </fieldset>
-    </form>
-
+<h2>Teams Progress Report</h2>
 <br>
 
-<br>
-    <button class="accordion">
-          January 13, 2020 - Weekly Agenda 
-      </button>
-        <div class="panel">
-            <p>The agenda for this week is to first set up a meeting with the client and to introduce the team to our client. Before the client meeting, I would like each team member to independently research the client, the client's market offerings, and the client's customer.</p>      
-        </div>
-    <br>
-    <br>
-<button class="accordion">
-          January 20, 2020 - Weekly Agenda 
-      </button>
-        <div class="panel">
-            <p>The agenda for this week is to gather requirements from the client. Now that we know more about the client, I would like the team to identify the main problem that the client is facing and start thinking of questions to ask the client.</p>      
-        </div>
-    <br>
-    <br>
-<button class="accordion">
-          January 27, 2020 - Weekly Agenda 
-      </button>
-        <div class="panel">
-            <p>The agenda for this week is to set up meetings with the client to ask questions. I would like the team to be familiarized with OneNote so that they can be equipped to take notes and start diagramming. I would also like to assess the information gathered by the team by the end of the week to see if the team is asking the right questions.</p>      
-        </div>
-    <br>
-    <br>
-<button class="accordion">
-          February 3, 2020 - Weekly Agenda 
-      </button>
-        <div class="panel">
-            <p>The agenda for this week is to start brainstorming with possible solutions. I would like the team to meet up minimum 3 times this week to discuss solutions. I would also like for at least 1 team member to serve as "devil's advocate" so that "groupthink" is minimized. By the end of the week, I want to hear all the brainstormed solutions so that I can assess them.</p>      
-        </div>
-
-<br>
-    <br>
 
 
-      
+<table id="Progressreport">
+  <tr>
+    <th>Team</th>
+    <th>Progress Report</th> 
+    <th>Analysis by LT</th>
+  </tr>
+  <tr>
+    <td>Team 1</td>
+    <td>Progress Report 1&nbsp&nbsp<button type="button">View</button><br>
+      Progress Report 2&nbsp&nbsp<button type="button">View</button><br>
+      Progress Report 3&nbsp&nbsp<button type="button">View</button><br></td>
+    <td><button onclick= "reminder()">View</button> </td>
+  </tr>
+  <tr>
+    <td>Team 2</td>
+    <td>Progress Report 1&nbsp&nbsp<button type="button">View</button><br>
+      Progress Report 2&nbsp&nbsp<button type="button">View</button><br>
+     </td>
+    <td><button onclick= "reminder()">View</button> </td>
+  </tr>
+  <tr>
+    <td>Team 3</td>
+    <td>Progress Report 1&nbsp&nbsp<button type="button">View</button><br>
+      Progress Report 2&nbsp&nbsp<button type="button">View</button><br>
+     </td>
+    <td><button onclick= "reminder()">View</button> </td>
+  </tr>
+   <tr>
+    <td>Team 4</td>
+    <td>Progress Report 1&nbsp&nbsp<button type="button">View</button><br>
+      Progress Report 2&nbsp&nbsp<button type="button">View</button><br>
+      Progress Report 3&nbsp&nbsp<button type="button">View</button><br></td>
+    <td><button onclick= "reminder()">View</button> </td>
+  </tr>
+     <tr>
+    <td>Team 5</td>
+    <td>Progress Report 1&nbsp&nbsp<button type="button">View</button><br>
+      Progress Report 2&nbsp&nbsp<button type="button">View</button><br>
+      </td>
+    <td><button onclick= "reminder()">View</button> </td>
+  </tr>
+                         
+</table>
     
- <br><br><br><br><br><br><br><br><br><br>
-
+    <br><br>
     
-     <!-- STYLE FOR ACCORDION-->
-    <style>
-              .accordion {
-                  background-color: #eee;
-                  color: #444;
-                  cursor: pointer;
-                  padding: 18px;
-                  width: 100%;
-                  text-align: left;
-                  border: none;
-                  outline: none;
-                  transition: 0.4s;
-              }
-              .active, .accordion:hover {
-                  background-color: #ccc;
-              }
-              .panel {
-                  padding: 0 18px;
-                  background-color: gainsboro;
-                  display: none;
-                  overflow: hidden;
-            }
-            .accordion:after {
-              content: '\02795'; /* Unicode character for "plus" sign (+) */
-              font-size: 13px;
-              color: #777;
-              float: right;
-              margin-left: 5px;
-            }
+<label for="PPP">Choose progress report:</label>
 
-            .active:after {
-              content: "\2796"; /* Unicode character for "minus" sign (-) */
-            }
-      </style>
+<select id="PPP">
+  <option value="1">Team 1 Progress Report 1</option>
+  <option value="2">Team 1 Progress Report 2</option>
+  <option value="3">Team 1 Progress Report 3</option>
+  <option value="5">Team 2 Progress Report 1</option>
+<option value="6">Team 2 Progress Report 2</option>
+    <option value="7">Team 3 Progress Report 1</option>
+    <option value="7">Team 3 Progress Report 2</option>
+    <option value="7">Team 4 Progress Report 1</option>
+    <option value="7">Team 4 Progress Report 2</option>
+    <option value="7">Team 4 Progress Report 3</option>
+    <option value="7">Team 5 Progress Report 1</option>
+    <option value="7">Team 5 Progress Report 2</option>
     
-    <!-- JAVASCRIPT FOR ACCORDION-->
+</select>
+    
+    <button onclick= "ABC()">Send for analysis</button>
+    
       <script>
-          var acc = document.getElementsByClassName("accordion");
-          var i;
-            for (i = 0; i < acc.length; i++) {
-              acc[i].addEventListener("click", function() {
-                /* Toggle between adding and removing the "active" class,
-                to highlight the button that controls the panel */
-                this.classList.toggle("active");
+function ABC() {
+  alert("Report sent to LT members");
+}
+    </script>
+                             
+                             
+<style>
+#Progressreport {
+  font-family: Times New Roman, Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
-                /* Toggle between hiding and showing the active panel */
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                  panel.style.display = "none";
-                } else {
-                  panel.style.display = "block";
-                }
-              });
-            }
-      </script>
-    
-    
-<br><br><br><br><br>
+#Progressreport td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#Progressreport tr:nth-child(even){background-color: #f2f2f2;}
+
+#Progressreport tr:hover {background-color: #ddd;}
+
+#Progressreport th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: darkred ;
+  color: white;
+}
+</style>
+
+
+
+ <br><br><br><br>
+
+
     <footer>
         
     <div class="header1">
