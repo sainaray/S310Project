@@ -28,18 +28,27 @@
 <h4>Below you will be able to view the current tasks that have been completed and not completed.</h4>
     
     <h3>To-Do (Not Completed)</h3>
-        
-        <ol>
-            <li>Create a team member</li>
-            <li>View leadership team</li>
-            <li>View the daily agenda</li>
+    <a href="Update%20task.html">
+      <button>Update</button>
+    </a>
+        <div>
+            <ol>
+            <li>Select a client</li> 
+            <label>% Completed: <b>70%</b></label> 
+            <li>Create course logistics</li>
+            <label>% Completed: <b>50%</b></label> 
+            <li>Assign students to a team</li>
+            <label>% Completed: <b>20%</b></label> 
         </ol>
+        </div>
     
     <h3>Completed Tasks</h3>
-        
+    <a href="Update%20task%20(completed).html">
+          <button>Update</button>
+    </a>
         <ul>
-            <li>Record all participants</li>
-            <li>Record daily agenda</li>
+            <li>Admit/Reject Students</li>
+            <li>Prepare the syllabus</li>
         </ul>
 
 
