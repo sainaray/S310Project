@@ -47,61 +47,169 @@
 
 <h2>Capture Weekly Meeting Agenda</h2>
 
-<p> Below is the information for the weekly agenda. Click a panel with to view that week's agenda. </p>
-
-<br>
-    <button class="accordion">
-          January 13, 2020 - Weekly Agenda 
-      </button>
-        <div class="panel">
-            <p>The agenda for this week is to first set up a meeting with the client and to introduce the team to our client. Before the client meeting, I would like each team member to independently research the client, the client's market offerings, and the client's customer.</p>      
-        </div>
-    <br>
-    <br>
-<button class="accordion">
-          January 20, 2020 - Weekly Agenda 
-      </button>
-        <div class="panel">
-            <p>The agenda for this week is to gather requirements from the client. Now that we know more about the client, I would like the team to identify the main problem that the client is facing and start thinking of questions to ask the client.</p>      
-        </div>
-    <br>
-    <br>
-<button class="accordion">
-          January 27, 2020 - Weekly Agenda 
-      </button>
-        <div class="panel">
-            <p>The agenda for this week is to set up meetings with the client to ask questions. I would like the team to be familiarized with OneNote so that they can be equipped to take notes and start diagramming. I would also like to assess the information gathered by the team by the end of the week to see if the team is asking the right questions.</p>      
-        </div>
-    <br>
-    <br>
-<button class="accordion">
-          February 3, 2020 - Weekly Agenda 
-      </button>
-        <div class="panel">
-            <p>The agenda for this week is to start brainstorming with possible solutions. I would like the team to meet up minimum 3 times this week to discuss solutions. I would also like for at least 1 team member to serve as "devil's advocate" so that "groupthink" is minimized. By the end of the week, I want to hear all the brainstormed solutions so that I can assess them.</p>      
-        </div>
-
-<br>
-    <br>
-
-<p> Submit the most recent agenda below. </p>
-
-<form action="/action_page.php">
-  <input type="file" id="myfile" name="myfile">
-<button onclick= "submit1()">Submit</button>
-
-<script>
-function submit1() {
-  alert("Agenda successfully submitted!");
-}
-</script>
-
-</form>
+<p> Submit your team's weekly agenda below by following the form. You can view your team's past agendas below by clicking on "View Details." </p>
+    
+<form>
+    <fieldset>
+          <legend>Create Agenda</legend>
+          <p>
+              <label>Enter Team Name (ex: Team 1)</label>
+              <input type="text" required> <br>
+              <form action="https://example.com">
+                  <label>
+                    Enter the Agenda Date:
+                    <input type="date" name="bday">
+                  </label>
+                    <br>
+             
+              
+                  <label>Enter the agenda for your team below: </label><br>
+                  <input type="text" required style=height:200px;width:1000px;font-size:10pt;> <br>
       
-    
- <br><br><br><br><br><br><br><br><br><br>
+              <button onclick= "submit1()">Submit Agenda</button>
+              
+              <script>
+                function submit1() {
+                    alert("Task has been submitted!")
+                }
+              
+              </script>
+                
+        </form>
+       </fieldset>
+    </form>
 
+           
+                     
+                                          
+              
+<br>
     
+<table id="Progressreport">
+  <tr>
+    <th>Team</th>
+    <th>Weekly Agenda</th> 
+  </tr>
+  <tr>
+    <td>Team 1</td>
+    <td><button class="accordion">
+          View Details: 1/7/20
+      </button>
+        <div class="panel">
+            <h4>Weekly Agenda</h4>
+                <p>Our team's weekly agenda for this week is to complete the following: requirements gathering, client research, identification of the problem's scope. We plan on holding multiple meetings with the cient.</p>
+        </div>
+        <button class="accordion">
+          View Details: 1/14/20
+      </button>
+        <div class="panel">
+            <h4>Weekly Agenda</h4>
+                <p>Our team's weekly agenda for this week is to complete the following: requirements gathering, client research, identification of the problem's scope. We plan on holding multiple meetings with the cient.</p>
+        </div>
+      </td>
+  </tr>
+  <tr>
+    <td>Team 2</td>
+        <td><button class="accordion">
+          View Details: 1/7/20
+      </button>
+        <div class="panel">
+            <h4>Weekly Agenda</h4>
+                <p>Our team's weekly agenda for this week is to complete the following: requirements gathering, client research, identification of the problem's scope. We plan on holding multiple meetings with the cient.</p>
+        </div>
+        <button class="accordion">
+          View Details: 1/14/20
+      </button>
+        <div class="panel">
+            <h4>Weekly Agenda</h4>
+                <p>Our team's weekly agenda for this week is to complete the following: requirements gathering, client research, identification of the problem's scope. We plan on holding multiple meetings with the cient.</p>
+        </div>
+      </td>
+  </tr>
+<tr>
+    <td>Team 3</td>
+        <td><button class="accordion">
+          View Details: 1/7/20
+      </button>
+        <div class="panel">
+            <h4>Weekly Agenda</h4>
+                <p>Our team's weekly agenda for this week is to complete the following: requirements gathering, client research, identification of the problem's scope. We plan on holding multiple meetings with the cient.</p>
+        </div>
+        <button class="accordion">
+          View Details: 1/14/20
+      </button>
+        <div class="panel">
+            <h4>Weekly Agenda</h4>
+                <p>Our team's weekly agenda for this week is to complete the following: requirements gathering, client research, identification of the problem's scope. We plan on holding multiple meetings with the cient.</p>
+        </div>
+      </td>
+  </tr>
+<tr>
+    <td>Team 4</td>
+        <td><button class="accordion">
+          View Details: 1/7/20
+      </button>
+        <div class="panel">
+            <h4>Weekly Agenda</h4>
+                <p>Our team's weekly agenda for this week is to complete the following: requirements gathering, client research, identification of the problem's scope. We plan on holding multiple meetings with the cient.</p>
+        </div>
+        <button class="accordion">
+          View Details: 1/14/20
+      </button>
+        <div class="panel">
+            <h4>Weekly Agenda</h4>
+                <p>Our team's weekly agenda for this week is to complete the following: requirements gathering, client research, identification of the problem's scope. We plan on holding multiple meetings with the cient.</p>
+        </div>
+      </td>
+  </tr>
+<tr>
+    <td>Team 5</td>
+        <td><button class="accordion">
+          View Details: 1/7/20
+      </button>
+        <div class="panel">
+            <h4>Weekly Agenda</h4>
+                <p>Our team's weekly agenda for this week is to complete the following: requirements gathering, client research, identification of the problem's scope. We plan on holding multiple meetings with the cient.</p>
+        </div>
+        <button class="accordion">
+          View Details: 1/14/20
+      </button>
+        <div class="panel">
+            <h4>Weekly Agenda</h4>
+                <p>Our team's weekly agenda for this week is to complete the following: requirements gathering, client research, identification of the problem's scope. We plan on holding multiple meetings with the cient.</p>
+        </div>
+      </td>
+  </tr>
+                         
+</table>
+    
+
+<br><br><br><br><br><br><br>
+
+<style>
+#Progressreport {
+  font-family: Times New Roman, Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#Progressreport td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#Progressreport tr:nth-child(even){background-color: #f2f2f2;}
+
+#Progressreport tr:hover {background-color: #ddd;}
+
+#Progressreport th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: darkred ;
+  color: white;
+}
+</style>    
      <!-- STYLE FOR ACCORDION-->
     <style>
               .accordion {
