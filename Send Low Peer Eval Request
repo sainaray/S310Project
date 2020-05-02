@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-
 <html>
     
     <head>
         <title>GLOBASE Guatemala</title>
-        
+        <style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
     </head>
 <body>
     
@@ -24,36 +26,99 @@
     
 <h2>View Low Evaluation Scores</h2>
 
-    <h4>Below are the students who received a peer evaluation score below the threshold.</h4> 
+    <h4>Below are the students who received a peer evaluation score below the threshold. The calculation for the final grade is now (evaluation score) * (final score) = New Score. Below 80% will be an automatic 25% deduction in the grade. By pressing Confirm, these scores will be sent to the professor.</h4>
     <br>
-    <div class="Bad Evaluations">
-    <ul>Chad Simmons 50%</ul>
-    <ul>John Benner 50%</ul>
-    <ul>Zach Mathes 60%</ul>
-    <ul>Sue Lee 60%</ul>
-    <ul>Aaron Kendricks 70%</ul>
-    <ul>Gerard Squires 60%</ul>
 
-    </div>
-    <br>
-<h2>Make necessary changes to grade</h2>
+ <table>
+      <h3>Roosiers Scores</h3>
+        <tr>
+            <th>Team Member</th>  
+            <th>Final Team Grade</th>  
+            <th>Peer Eval Grade</th>
+            <th>Adjusted Score</th>
+        </tr>
+        <tr>
+            <td>Chad Simmons</td>
+            <td>80%</td>
+            <td>85%</td>
+            <td><b>85%</b></td>
+        </tr>
+        <tr>
+            <td>Gerard Squires</td>
+            <td>80%</td>
+            <td>80%</td>
+            <td><b>80%</b></td>
+        </tr>
+        <tr>
+         <td>Zach Mathes</td>
+            <td>80%</td>
+            <td>below 80%</td>
+            <td><b>75%</b></td>
+        </tr>    
+</table>
+<button onclick= "submit1()">Confirm</button>
+            <script>
+                function submit1() {
+                    alert("Low scores for Team Roosiers have been submitted to the professor!")
+                }
+            </script>
+<br>
+<hr>
     
-    <h4>The calculation for the final grade is now (evaluation score) * (final score) +10% = New Score.</h4>
-    <p>
-        Chad Simmons: (50% * 100%)+10% = <b>60%</b>
-        <br>
-        John Benner: (50% * 100%)+10% = <b>60%</b>
-        <br>
-        Zach Mathes: (60% * 90%)+10% = <b>64%</b>
-        <br>
-        Sue Lee: (60% * 95%)+10%= <b>57%</b>
-        <br>
-        Aaron Kendricks: (70% * 85%)+10%= <b>59.5%</b>
-        <br>
-        Gerard Squires: (60% * 100%)+10%= <b>70%</b>
-        <br>
-    </p>
-                 
+<table>
+    <h3>Mercury Scores</h3>
+     <tr>
+        <th>Team Member</th>  
+        <th>Final Team Grade</th>  
+        <th>Peer Eval Grade</th>
+        <th>Adjusted Score</th>
+    </tr>
+    <tr>
+        <td>John Benner</td>
+        <td>85%</td>
+        <td>80%</td>
+        <td><b>85%</b></td>
+    </tr>    
+    <tr>
+        <td>Sue Lee</td>
+        <td>85%</td>
+        <td>80%</td>
+        <td><b>80%</b></td>
+    </tr>
+</table>
+<button onclick= "submit2()">Confirm</button>
+            <script>
+                function submit2() {
+                    alert("Low scores for Team Mercury have been submitted to the professor!")
+                }
+            </script>
+<br>
+<hr>
+
+<table>
+    <h3>Prototypers Scores</h3>
+     <tr>
+        <th>Team Member</th>  
+        <th>Final Team Grade</th>  
+        <th>Peer Eval Grade</th>
+        <th>Adjusted Score</th>
+    </tr>
+    <tr>
+        <td>Aaron Kendricks</td>
+        <td>100%</td>
+        <td>85%</td>
+        <td><b>72.25%</b></td>
+    </tr>
+</table>
+<button onclick= "submit3()">Confirm</button>
+            <script>
+                function submit3() {
+                    alert("Low scores for Team Prototypers have been submitted to the professor!")
+                }
+            </script>
+
+    <br>
+               
     <footer>
     <hr>
     <h3>
