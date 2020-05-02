@@ -46,9 +46,9 @@
 </div>
 
 
-<h2>Teams Final Report</h2>
+<h2>Team Final Report &amp; Presentation</h2>
+<p>You can view your team's Final Report and Final Presentation below. When you are ready to confirm that your team's report and presentation are complete, click the "Send" button for your team.</p>
 <br>
-
 
 
 <table id="finalreport">
@@ -56,7 +56,7 @@
     <th>Team</th>
     <th>Final Report</th> 
     <th>Final Presentation</th> 
-    <th>Confirm Submission</th>
+    <th>Confirm Completion</th>
   </tr>
   <tr>
     <td>Team 1</td>
@@ -139,18 +139,17 @@
     <td><button onclick= "reminder()">Send</button> </td>
   </tr>
 
-        <body>
-            <iframe id="myFrame" style="display:none" width="600" height="300"></iframe>
-            <input type="button" value="View Presentation" onclick = "openPdf2()"/>
-          </body>
+        
   
                          
 </table>
-    <script>
+    
+    
+<script>
 function reminder() {
   alert("Report & presentation successfully submitted!");
 }
-    </script>
+</script>
                              
                              
 <style>
