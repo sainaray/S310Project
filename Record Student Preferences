@@ -55,7 +55,7 @@
 
 <br></a> <br></a>
   
-<label> Mike Iacono    </label>
+<label>Cerveceria Centro Americano     </label>
                          
 <select id="Ranking">
     <option value="1">1</option>
@@ -63,12 +63,12 @@
     <option value="3">3</option>
     <option value="4">4</option> 
     <option value="5">5</option>  
-    <option value="6">6</option>
+  
     
 </select id="Rankingt">
 
 <br> <br></a>
-<label> Connor Dempsey</label>
+<label> Industrias Licoreras de Guatemala</label>
                           
   <select id="Ranking">
     <option value="1">1</option>
@@ -76,11 +76,11 @@
     <option value="3">3</option>
     <option value="4">4</option> 
     <option value="5">5</option>  
-    <option value="6">6</option>
+   
 
                      </select id="Ranking">
 <br> <br></a>
-<label> Catherine Jones</label>
+<label>Malher</label>
 
 <select id="Rankingt">
     <option value="1">1</option>
@@ -88,11 +88,11 @@
     <option value="3">3</option>
     <option value="4">4</option> 
     <option value="5">5</option>  
-    <option value="6">6</option>                                               
+                                                  
 </select id="Ranking">
 <br> <br></a>
                           
-<label> Tom Brady</label>  
+<label> Pollo Campero</label>  
 
 <select id="Ranking">
     <option value="1">1</option>
@@ -100,12 +100,12 @@
     <option value="3">3</option>
     <option value="4">4</option> 
     <option value="5">5</option>  
-    <option value="6">6</option>  
+   
                      
 </select id="Ranking">
 <br> <br></a>
                           
-<label> Joe Montana</label>  
+<label>Ron Zacapa Centenario</label>  
 
 <select id="Ranking">
     <option value="1">1</option>
@@ -113,23 +113,11 @@
     <option value="3">3</option>
     <option value="4">4</option> 
     <option value="5">5</option>  
-    <option value="6">6</option>  
-                     
+   
 </select id="Ranking">
 <br> <br></a>
                           
-<label> Lindsey Vohn</label>  
 
-<select id="Ranking">
-    <option value="1">1</option>
-    <option value="2">2</option> 
-    <option value="3">3</option>
-    <option value="4">4</option> 
-    <option value="5">5</option>  
-    <option value="6">6</option>  
-                     
-</select id="Ranking">
-<br> <br></a>
                           
 
              
