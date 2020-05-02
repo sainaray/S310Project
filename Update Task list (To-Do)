@@ -1,0 +1,50 @@
+<html>
+    
+    <head>
+        <title>GLOBASE Guatemala</title>
+        
+    </head>
+<body>
+    
+ 
+        <h1>Task Page</h1>
+
+    <nav>
+    <a href="Home_page.html">Home</a>
+    <a href="Faculty_Page.html">Faculty</a>
+    <a href="Participant_page.html">Participant</a>
+    <a href="Leadership_team_page">Leadership team</a>
+    </nav>
+                                     
+    <img src=https://kelley.iu.edu/images/bloomington/programs/full-time-mba/globase/vietnam-6-1536x768.jpg alt=Globase Students Image Title="Globase Students" width="600">
+        
+    <br>
+    
+<h2>Update Task List</h2>
+    <br>
+
+<h4>Below you will be able to view update current tasks that have been not completed. You are able to remove or edit the task at hand.</h4>
+    
+    <h3>To-Do (Not Completed)</h3>
+      
+        <ol>
+            <li>Select a client</li> <label>% Completed: <b>70%</b></label><br>
+            <button>Remove</button>  <button>Edit</button>  <button>Move to completed</button>
+            <li>Create course logistics</li>  <label>% Completed: <b>50%</b></label><br><button>Remove</button>  <button>Edit</button>  <button>Move to completed</button>
+            <li>Assign students to a team</li> <label>% Completed: <b>20%</b></label><br><button>Remove</button>  <button>Edit</button>  <button>Move to completed</button>
+        </ol>
+        <a href="View%20Task%20List.html">
+        <button>Go back to Task List</button>
+        </a>           
+    <footer>
+    <hr>
+    <h3>
+        <p> Team 15 Consulting </p>
+        <br>
+    Kelley School of Business
+        
+    </h3>
+      </footer>
+
+</body>
+   </html>
