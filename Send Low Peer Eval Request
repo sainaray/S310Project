@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html>
     
     <head>
@@ -41,19 +43,19 @@ table, th, td {
             <td>Chad Simmons</td>
             <td>80%</td>
             <td>85%</td>
-            <td><b>85%</b></td>
+            <td><b>68%</b></td>
         </tr>
         <tr>
             <td>Gerard Squires</td>
             <td>80%</td>
             <td>80%</td>
-            <td><b>80%</b></td>
+            <td><b>64%</b></td>
         </tr>
         <tr>
          <td>Zach Mathes</td>
             <td>80%</td>
             <td>below 80%</td>
-            <td><b>75%</b></td>
+            <td><b>55%</b></td>
         </tr>    
 </table>
 <button onclick= "submit1()">Confirm</button>
@@ -77,13 +79,13 @@ table, th, td {
         <td>John Benner</td>
         <td>85%</td>
         <td>80%</td>
-        <td><b>85%</b></td>
+        <td><b>68%</b></td>
     </tr>    
     <tr>
         <td>Sue Lee</td>
         <td>85%</td>
         <td>80%</td>
-        <td><b>80%</b></td>
+        <td><b>68%</b></td>
     </tr>
 </table>
 <button onclick= "submit2()">Confirm</button>
@@ -107,7 +109,7 @@ table, th, td {
         <td>Aaron Kendricks</td>
         <td>100%</td>
         <td>85%</td>
-        <td><b>72.25%</b></td>
+        <td><b>85%</b></td>
     </tr>
 </table>
 <button onclick= "submit3()">Confirm</button>
