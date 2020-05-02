@@ -10,6 +10,7 @@
     <h5 class="thin">KELLEY SCHOOL OF BUSINESS</h5>
     <h2>Globase Guatamala</h2>
 </div>
+    
 
 <div class="navbar">
   <a href="#home">Home</a>
@@ -45,15 +46,13 @@
   </div> 
 </div>
 
-
-<h2>Teams Progress Report</h2>
-    <p>LT members can sumbit their team's weekly progress reports below. Make sure that your team filled out the progress report before you submit. Include your analysis in the same document as the progress report. You can review all weekly progress reports below by clicking on "View Details."</p>
+<h2>Capture Weekly Meeting Agenda</h2>
     
-<br>
+<p> As an LT member, upload the most recent agenda using the form below. You can view your past weekly agendas by clicking on the panels called "Weekly Agenda."</p>
 
-    <form action="/action_page.php">
+<form action="/action_page.php">
        <fieldset>
-          <legend>Submit Weekly Progress Report</legend>
+          <legend>Submit Weekly Agenda</legend>
           <p>
               <label> Enter Team Id (ex: T100000) </label>
               <input type="text" required> <br>
@@ -61,201 +60,117 @@
               <input type="text" required> <br>
               <br>
         <input type="file" id="myFile" name="filename">
-        <input type="submit" onclick="ABC()">
+        <input type="submit" onclick="submitagenda()">
+               <script>
+                    function submitagenda() {
+                      alert("Agenda submitted!");
+                    }
+    </script>
             </p>
        </fieldset>
     </form>
 
-    
 <br>
 
-
-
-<table id="Progressreport">
-  <tr>
-    <th>Team</th>
-    <th>Progress Report &amp; LT Analysis</th> 
-  </tr>
-  <tr>
-    <td>Team 1</td>
-    <td>
-        <button class="accordion">
-          View Details for 1/7/2020
+<br>
+    <button class="accordion">
+          January 13, 2020 - Weekly Agenda 
       </button>
         <div class="panel">
-            <h4>Progress Report</h4>
-                <p>We, as Team 1, would like to report that we completed the following tasks for week 1: researched the client, held meetings with the client, and gathered more information on the client's problem.</p>
-            <h4>LT Analysis</h4>
-                <p>The team showed strong signs of collaboration and trust after week 1. They have already made headway gathering information and requirements on the client, and they are on track for understanding the current state.</p>
+            <p>The agenda for this week is to first set up a meeting with the client and to introduce the team to our client. Before the client meeting, I would like each team member to independently research the client, the client's market offerings, and the client's customer.</p>      
         </div>
-        <button class="accordion">
-          View Details for 1/14/2020
+    <br>
+    <br>
+<button class="accordion">
+          January 20, 2020 - Weekly Agenda 
       </button>
         <div class="panel">
-            <h4>Progress Report</h4>
-                <p>We, as Team 1, would like to report that we completed the following tasks for week 2: gathered more requirements, held meetings with the client, defined the problem, and have outlined the scope.</p>
-            <h4>LT Analysis</h4>
-                <p>The team are on track to have a fully completed report of the current state. They have demonstrated strong problem-solving abilities during this time, and they are asking relevant question for the client.</p>
+            <p>The agenda for this week is to gather requirements from the client. Now that we know more about the client, I would like the team to identify the main problem that the client is facing and start thinking of questions to ask the client.</p>      
         </div>
-      </td>
+    <br>
+    <br>
+<button class="accordion">
+          January 27, 2020 - Weekly Agenda 
+      </button>
+        <div class="panel">
+            <p>The agenda for this week is to set up meetings with the client to ask questions. I would like the team to be familiarized with OneNote so that they can be equipped to take notes and start diagramming. I would also like to assess the information gathered by the team by the end of the week to see if the team is asking the right questions.</p>      
+        </div>
+    <br>
+    <br>
+<button class="accordion">
+          February 3, 2020 - Weekly Agenda 
+      </button>
+        <div class="panel">
+            <p>The agenda for this week is to start brainstorming with possible solutions. I would like the team to meet up minimum 3 times this week to discuss solutions. I would also like for at least 1 team member to serve as "devil's advocate" so that "groupthink" is minimized. By the end of the week, I want to hear all the brainstormed solutions so that I can assess them.</p>      
+        </div>
+
+<br>
+    <br>
+
+
       
-  </tr>
-  <tr>
-    <td>Team 2</td>
-    <td>
-        <button class="accordion">
-          View Details for 1/7/2020
-      </button>
-        <div class="panel">
-            <h4>Progress Report</h4>
-                <p>We, as Team 2, would like to report that we completed the following tasks for week 1: researched the client, held meetings with the client, and gathered more information on the client's problem.</p>
-            <h4>LT Analysis</h4>
-                <p>The team showed strong signs of collaboration and trust after week 1. They have already made headway gathering information and requirements on the client, and they are on track for understanding the current state.</p>
-        </div>
-        <button class="accordion">
-          View Details for 1/14/2020
-      </button>
-        <div class="panel">
-            <h4>Progress Report</h4>
-                <p>We, as Team 2, would like to report that we completed the following tasks for week 2: gathered more requirements, held meetings with the client, defined the problem, and have outlined the scope.</p>
-            <h4>LT Analysis</h4>
-                <p>The team are on track to have a fully completed report of the current state. They have demonstrated strong problem-solving abilities during this time, and they are asking relevant question for the client.</p>
-        </div>
-      </td>
-  </tr>
-<tr>
-   <td>Team 3</td>
-    <td>
-        <button class="accordion">
-          View Details for 1/7/2020
-      </button>
-        <div class="panel">
-            <h4>Progress Report</h4>
-                <p>We, as Team 3, would like to report that we completed the following tasks for week 1: researched the client, held meetings with the client, and gathered more information on the client's problem.</p>
-            <h4>LT Analysis</h4>
-                <p>The team showed strong signs of collaboration and trust after week 1. They have already made headway gathering information and requirements on the client, and they are on track for understanding the current state.</p>
-        </div>
-        <button class="accordion">
-          View Details for 1/14/2020
-      </button>
-        <div class="panel">
-            <h4>Progress Report</h4>
-                <p>We, as Team 3, would like to report that we completed the following tasks for week 2: gathered more requirements, held meetings with the client, defined the problem, and have outlined the scope.</p>
-            <h4>LT Analysis</h4>
-                <p>The team are on track to have a fully completed report of the current state. They have demonstrated strong problem-solving abilities during this time, and they are asking relevant question for the client.</p>
-        </div>
-      </td>
-</tr>
-<tr>
-   <td>Team 4</td>
-    <td>
-        <button class="accordion">
-          View Details for 1/7/2020
-      </button>
-        <div class="panel">
-            <h4>Progress Report</h4>
-                <p>We, as Team 4, would like to report that we completed the following tasks for week 1: researched the client, held meetings with the client, and gathered more information on the client's problem.</p>
-            <h4>LT Analysis</h4>
-                <p>The team showed strong signs of collaboration and trust after week 1. They have already made headway gathering information and requirements on the client, and they are on track for understanding the current state.</p>
-        </div>
-        <button class="accordion">
-          View Details for 1/14/2020
-      </button>
-        <div class="panel">
-            <h4>Progress Report</h4>
-                <p>We, as Team 4, would like to report that we completed the following tasks for week 2: gathered more requirements, held meetings with the client, defined the problem, and have outlined the scope.</p>
-            <h4>LT Analysis</h4>
-                <p>The team are on track to have a fully completed report of the current state. They have demonstrated strong problem-solving abilities during this time, and they are asking relevant question for the client.</p>
-        </div>
-      </td>
-</tr>
-    <tr>
-   <td>Team 5</td>
-    <td>
-        <button class="accordion">
-          View Details for 1/7/2020
-      </button>
-        <div class="panel">
-            <h4>Progress Report</h4>
-                <p>We, as Team 5, would like to report that we completed the following tasks for week 1: researched the client, held meetings with the client, and gathered more information on the client's problem.</p>
-            <h4>LT Analysis</h4>
-                <p>The team showed strong signs of collaboration and trust after week 1. They have already made headway gathering information and requirements on the client, and they are on track for understanding the current state.</p>
-        </div>
-        <button class="accordion">
-          View Details for 1/4/2020
-      </button>
-        <div class="panel">
-            <h4>Progress Report</h4>
-                <p>We, as Team 5, would like to report that we completed the following tasks for week 2: gathered more requirements, held meetings with the client, defined the problem, and have outlined the scope.</p>
-            <h4>LT Analysis</h4>
-                <p>The team are on track to have a fully completed report of the current state. They have demonstrated strong problem-solving abilities during this time, and they are asking relevant question for the client.</p>
-        </div>
-      </td>
-</tr>
-    <tr>
-   <td>Team 6</td>
-    <td>
-        <button class="accordion">
-          View Details for 1/7/2020
-      </button>
-        <div class="panel">
-            <h4>Progress Report</h4>
-                <p>We, as Team 6, would like to report that we completed the following tasks for week 1: researched the client, held meetings with the client, and gathered more information on the client's problem.</p>
-            <h4>LT Analysis</h4>
-                <p>The team showed strong signs of collaboration and trust after week 1. They have already made headway gathering information and requirements on the client, and they are on track for understanding the current state.</p>
-        </div>
-        <button class="accordion">
-          View Details for 1/14/2020
-      </button>
-        <div class="panel">
-            <h4>Progress Report</h4>
-                <p>We, as Team 6, would like to report that we completed the following tasks for week 2: gathered more requirements, held meetings with the client, defined the problem, and have outlined the scope.</p>
-            <h4>LT Analysis</h4>
-                <p>The team are on track to have a fully completed report of the current state. They have demonstrated strong problem-solving abilities during this time, and they are asking relevant question for the client.</p>
-        </div>
-      </td>
-</tr>
-                         
-</table>
+    
+ <br><br><br><br><br><br><br><br><br><br>
 
     
+     <!-- STYLE FOR ACCORDION-->
+    <style>
+              .accordion {
+                  background-color: #eee;
+                  color: #444;
+                  cursor: pointer;
+                  padding: 18px;
+                  width: 100%;
+                  text-align: left;
+                  border: none;
+                  outline: none;
+                  transition: 0.4s;
+              }
+              .active, .accordion:hover {
+                  background-color: #ccc;
+              }
+              .panel {
+                  padding: 0 18px;
+                  background-color: gainsboro;
+                  display: none;
+                  overflow: hidden;
+            }
+            .accordion:after {
+              content: '\02795'; /* Unicode character for "plus" sign (+) */
+              font-size: 13px;
+              color: #777;
+              float: right;
+              margin-left: 5px;
+            }
+
+            .active:after {
+              content: "\2796"; /* Unicode character for "minus" sign (-) */
+            }
+      </style>
+    
+    <!-- JAVASCRIPT FOR ACCORDION-->
       <script>
-function ABC() {
-  alert("Report submitted!");
-}
-    </script>
-                             
-                             
-<style>
-#Progressreport {
-  font-family: Times New Roman, Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
 
-#Progressreport td, #customers th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#Progressreport tr:nth-child(even){background-color: #f2f2f2;}
-
-#Progressreport tr:hover {background-color: #ddd;}
-
-#Progressreport th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: darkred ;
-  color: white;
-}
-</style>
-
-
-
- <br><br><br><br>
-
-
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+      </script>
+    
+    
+<br><br><br><br><br>
     <footer>
         
     <div class="header1">
@@ -389,58 +304,3 @@ body {
 
 
 </style>
-    <!-- STYLE FOR ACCORDION-->
-    <style>
-              .accordion {
-                  background-color: #eee;
-                  color: #444;
-                  cursor: pointer;
-                  padding: 18px;
-                  width: 100%;
-                  text-align: left;
-                  border: none;
-                  outline: none;
-                  transition: 0.4s;
-              }
-              .active, .accordion:hover {
-                  background-color: #ccc;
-              }
-              .panel {
-                  padding: 0 18px;
-                  background-color: gainsboro;
-                  display: none;
-                  overflow: hidden;
-            }
-            .accordion:after {
-              content: '\02795'; /* Unicode character for "plus" sign (+) */
-              font-size: 13px;
-              color: #777;
-              float: right;
-              margin-left: 5px;
-            }
-
-            .active:after {
-              content: "\2796"; /* Unicode character for "minus" sign (-) */
-            }
-      </style>
-    
-    <!-- JAVASCRIPT FOR ACCORDION-->
-      <script>
-          var acc = document.getElementsByClassName("accordion");
-          var i;
-            for (i = 0; i < acc.length; i++) {
-              acc[i].addEventListener("click", function() {
-                /* Toggle between adding and removing the "active" class,
-                to highlight the button that controls the panel */
-                this.classList.toggle("active");
-
-                /* Toggle between hiding and showing the active panel */
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                  panel.style.display = "none";
-                } else {
-                  panel.style.display = "block";
-                }
-              });
-            }
-      </script>
