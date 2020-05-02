@@ -46,7 +46,7 @@
 </div>
 
 
-<h2>Confirm Final Report &amp; Presentation</h2>
+<h2>Teams Final Report</h2>
 <br>
 
 
@@ -138,22 +138,12 @@
       </td>
     <td><button onclick= "reminder()">Send</button> </td>
   </tr>
-    <tr>
-    <td>Team 6</td>
-      <td>
-        <body>
-            <iframe id="myFrame" style="display:none" width="600" height="300"></iframe>
-            <input type="button" value="View Report" onclick = "openPdf1()"/>
-          </body>
-      </td>
-      <td>
+
         <body>
             <iframe id="myFrame" style="display:none" width="600" height="300"></iframe>
             <input type="button" value="View Presentation" onclick = "openPdf2()"/>
           </body>
-      </td>
-    <td><button onclick= "reminder()">Send</button> </td>
-  </tr>
+  
                          
 </table>
     <script>
