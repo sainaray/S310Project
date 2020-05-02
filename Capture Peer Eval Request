@@ -47,276 +47,144 @@
 
 <head>
         <title>GLOBASE Guatemala</title>
-        <style>
-table, th, td {
-  border: 1px solid black;
-}
-</style>
-    </head>
+
 <body>
     
  
-        <h1>Peer Evaluations Captured</h1>
+        <h1>Capture Peer Evaluations</h1>
+    <p>Follow the forms below to record and submit your peer evaluations. Only fill out 1 evaluation per team member. If your team does not have 6 team members, omit the additional forms. When you are ready to submit, click the "Submit Peer Evaluations" at the bottom of the page.</p>
 
                                      
-    <img src=https://kelley.iu.edu/images/bloomington/programs/full-time-mba/globase/vietnam-6-1536x768.jpg alt=Globase Students Image Title="Globase Students" width="600">
-        
-    <br>
-<h2>Captured Peer Evaluations</h2>
-<h4>Below are the peer evaluation results for each team. Click the "Send Low Scores" Button for the system to make the necessary grade adjustments</h4>
+<form>
+       <fieldset>
+          <legend>Enter Your Information</legend>
+          <p>
+              <label>Team Name (ex: Team 1): </label>
+              <input type="text" required> <br>
+              <label>First Name: </label>
+              <input type="text" required> <br>
+              <label>Last Name: </label>
+              <input type="text" required> <br>
+             <label>Semester:</label>
+             <select id = "myList">
+               <option value = "FA2020">Select an Option</option>
+               <option value = "SP2021">Student Selection</option>
+             </select>
+              <br>
 
-<table>
-    <h3>Team 1 Scores</h3>
-     <tr>
-        <th>Team Member</th>  
-        <th>Final Team Grade</th>  
-        <th>Peer Eval Grade</th>
-        <th>Send to professor?</th>
-    </tr>
-    <tr>
-        <td>Kerri King</td>
-        <td>95%</td>
-        <td>100%</td>
-        <td>no</td>
-    </tr>
-    <tr>
-        <td>LeShawn Livingston</td>
-        <td>95%</td>
-        <td>95%</td>
-        <td>no</td>
-    </tr>
-    <tr>
-        <td>Maria Martinez</td>
-        <td>95%</td>
-        <td>100%</td>
-        <td>no</td>
-    </tr>
-      <tr>
-        <td>Ni Nguyen</td>
-        <td>95%</td>
-        <td>90%</td>
-        <td>no</td>
-    </tr>
-    <tr>
-        <td>Oliver O'Connel</td>
-        <td>95%</td>
-        <td>85%</td>
-        <td>yes</td>
-    </tr>
-</table>
-                <button onclick= "submit3()">Send Low Scores</button>
-            <script>
-                function submit3() {
-                    alert("All scores below the threshold have been sent")
-                }
-            </script>
- <table>
-      <h3>Team 2 Scores</h3>
-        <tr>
-            <th>Team Member</th>  
-            <th>Final Team Grade</th>  
-            <th>Peer Eval Grade</th>
-            <th>Send to professor?</th>
-        </tr>
-        <tr>
-         <td>Amy Alfonso</td>
-            <td>80%</td>
-            <td>95%</td>
-            <td>no</td>
-        </tr>
-        <tr>
-            <td>Christie Crawford</td>
-            <td>80%</td>
-            <td>85%</td>
-            <td>yes</td>
-        </tr>
-        <tr>
-            <td>Fred Fitzgerald</td>
-            <td>80%</td>
-            <td>80%</td>
-            <td>yes</td>
-        </tr>
-        <tr>
-            <td>Jose Juarez</td>
-            <td>80%</td>
-            <td>100%</td>
-            <td>no</td>
-        </tr>
-        <tr>
-         <td>Grace Ge</td>
-            <td>80%</td>
-            <td>below 80%</td>
-            <td>yes</td>
-        </tr>    
-</table>
-<button onclick= "submit1()">Send Low Scores</button>
-            <script>
+              
+              
+            </p>
+       </fieldset>
+    </form>
+ <br>
+<form>
+       <fieldset>
+          <legend>Enter Teammate 1's Information</legend>
+          <p>
+              <label>First Name: </label>
+              <input type="text" required> <br>
+              <label>Last Name: </label>
+              <input type="text" required> <br><br>
+            <label>Based on this teammate's performance, how would you grade them (from 0-100%)?: </label><br>
+              <input type="text" required>% <br>
+            </p>
+       </fieldset>
+</form>
+
+<br>
+    
+<form>
+       <fieldset>
+          <legend>Enter Teammate 2's Information</legend>
+          <p>
+              <label>First Name: </label>
+              <input type="text" required> <br>
+              <label>Last Name: </label>
+              <input type="text" required> <br><br>
+            <label>Based on this teammate's performance, how would you grade them (from 0-100%)?: </label><br>
+              <input type="text" required>% <br>
+            </p>
+       </fieldset>
+</form>
+    
+<br>
+    
+<form>
+       <fieldset>
+          <legend>Enter Teammate 3's Information</legend>
+          <p>
+              <label>First Name: </label>
+              <input type="text" required> <br>
+              <label>Last Name: </label>
+              <input type="text" required> <br><br>
+            <label>Based on this teammate's performance, how would you grade them (from 0-100%)?: </label><br>
+              <input type="text" required>% <br>
+            </p>
+       </fieldset>
+</form>
+    
+<br>
+    
+<form>
+       <fieldset>
+          <legend>Enter Teammate 4's Information</legend>
+          <p>
+              <label>First Name: </label>
+              <input type="text" required> <br>
+              <label>Last Name: </label>
+              <input type="text" required> <br><br>
+            <label>Based on this teammate's performance, how would you grade them (from 0-100%)?: </label><br>
+              <input type="text" required>% <br>
+            </p>
+       </fieldset>
+</form>
+    
+<br>
+    
+<form>
+       <fieldset>
+          <legend>Enter Teammate 5's Information</legend>
+          <p>
+              <label>First Name: </label>
+              <input type="text" required> <br>
+              <label>Last Name: </label>
+              <input type="text" required> <br><br>
+            <label>Based on this teammate's performance, how would you grade them (from 0-100%)?: </label><br>
+              <input type="text" required>% <br>
+            </p>
+       </fieldset>
+</form>
+    
+<br>
+    
+<form>
+       <fieldset>
+          <legend>Enter Teammate 6's Information</legend>
+          <p>
+              <label>First Name: </label>
+              <input type="text" required> <br>
+              <label>Last Name: </label>
+              <input type="text" required> <br><br>
+            <label>Based on this teammate's performance, how would you grade them (from 0-100%)?: </label><br>
+              <input type="text" required>% <br>
+            </p>
+       </fieldset>
+</form>
+    
+    
+<br><br>
+    
+    
+    
+   <button onclick= "submit1()">Submit Peer Evaluations</button>
+              
+              <script>
                 function submit1() {
-                    alert("All scores below the threshold have been sent")
+                    alert("Peer evaluations have been submitted!")
                 }
-            </script>
-<br>
-<hr>
-    
-<table>
-    <h3>Team 3 Scores</h3>
-     <tr>
-        <th>Team Member</th>  
-        <th>Final Team Grade</th>  
-        <th>Peer Eval Grade</th>
-        <th>Send to professor?</th>
-    </tr>
-     <tr>
-        <td>Bill Baxter</td>
-        <td>85%</td>
-        <td>95%</td>
-        <td>no</td>
-    </tr>    
-     <tr>
-        <td>Dan Davidson</td>
-        <td>85%</td>
-        <td>90%</td>
-        <td>no</td>
-    </tr>    
-     <tr>
-        <td>Eliza Ellington</td>
-        <td>85%</td>
-        <td>90%</td>
-        <td>no</td>
-    </tr>    
-    <tr>
-        <td>Heather Hills</td>
-        <td>85%</td>
-        <td>80%</td>
-        <td>yes</td>
-    </tr>    
-    <tr>
-        <td>Isaac Idris</td>
-        <td>85%</td>
-        <td>80%</td>
-        <td>yes</td>
-    </tr>
-</table>
-<button onclick= "submit2()">Send Low Scores</button>
-            <script>
-                function submit2() {
-                    alert("All scores below the threshold have been sent")
-                }
-            </script>
-<br>
-<hr>
-
-<table>
-    <h3>Team 4 Scores</h3>
-     <tr>
-        <th>Team Member</th>  
-        <th>Final Team Grade</th>  
-        <th>Peer Eval Grade</th>
-        <th>Send to professor?</th>
-    </tr>
-    <tr>
-        <td>Patti Pinkerton</td>
-        <td>90%</td>
-        <td>100%</td>
-        <td>no</td>
-    </tr>
-    <tr>
-        <td>Quinn Quarles</td>
-        <td>90%</td>
-        <td>100%</td>
-        <td>no</td>
-    </tr>
-    <tr>
-        <td>Ronda Rousey</td>
-        <td>90%</td>
-        <td>below 80%</td>
-        <td>yes</td>
-    </tr>
-      <tr>
-        <td>Sam Smith</td>
-        <td>90%</td>
-        <td>95%</td>
-        <td>no</td>
-    </tr>
-    <tr>
-        <td>Terry Tots</td>
-        <td>90%</td>
-        <td>85%</td>
-        <td>yes</td>
-    </tr>
-</table>
-    <button onclick= "submit3()">Send Low Scores</button>
-            <script>
-                function submit3() {
-                    alert("All scores below the threshold have been sent")
-                }
-            </script>
-<br>
-<hr>
-
- <table>
-      <h3>Team 5 Scores</h3>
-        <tr>
-            <th>Team Member</th>  
-            <th>Final Team Grade</th>  
-            <th>Peer Eval Grade</th>
-            <th>Send to professor?</th>
-        </tr>
-        <tr>
-         <td>Uriel Underwood</td>
-            <td>100%</td>
-            <td>95%</td>
-            <td>no</td>
-        </tr>
-        <tr>
-            <td>Veronica Vogel</td>
-            <td>100%</td>
-            <td>95%</td>
-            <td>no</td>
-        </tr>
-        <tr>
-            <td>Wendy Worst</td>
-            <td>100%</td>
-            <td>below 80%</td>
-            <td>yes</td>
-        </tr>
-        <tr>
-            <td>Yoel Yates</td>
-            <td>100%</td>
-            <td>100%</td>
-            <td>no</td>
-        </tr>
-        <tr>
-         <td>Zoe Zachary</td>
-            <td>100%</td>
-            <td>100%</td>
-            <td>no</td>
-        </tr>    
-</table>
-    
-<button onclick= "submit3()">Send Low Scores</button>
-            <script>
-                function submit3() {
-                    alert("All scores below the threshold have been sent")
-                }
-            </script>
-<hr>
-    <br>
-    <h3>Please confirm all these scores to be sent.</h3>
-        <a href=Send%20Low%20Peer%20Evals.html>
-        <button>Confirm Low Scores</button>
-        </a>       
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
+              
+              </script> 
     
     
     
