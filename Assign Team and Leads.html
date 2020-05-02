@@ -26,13 +26,19 @@
     
     <body>
     <h1>Create a Team</h1>
+        <p>Follow the instructions below to create a new team. When you are ready to submit, click the "Submit" button at the bottom of the page.</p>
         
-        <h3>Enter Team Information</h3>
-        
+<br>  
+            
   <label for="fname">Team Name:</label><br>
-        <input type="text" id="fname" name="fname" value="Enter Team Name Here"><br>
-
-
+        <input type="text" id="fname" name="fname" value="Enter Team Name Here"><br><br>
+<br><br>
+        
+<form>
+    <fieldset>
+        
+        <legend>Select Participants</legend>
+        
         <h3>Participants</h3>
             <p>Select 5-6 students for the team. The students listed below are currently unassigned.</p>
         
@@ -58,11 +64,22 @@
                 <label for="student9"> Isaac Idris</label><br>
             <input type="checkbox" name="student10">
                 <label for="student10"> Jose Juarez</label><br>
+            
+
 
         </form>
-    
-   <h3>Team Leaders</h3>
-        <p>Select only 1 Leader for the team. The Leadership Team members listed below are currently unassigned.</p>
+    </fieldset>
+</form>
+        
+<br><br><br>
+        
+<form>
+    <fieldset>
+        
+        <legend>Select Team Leads</legend>
+        
+   <h3>Team Leads</h3>
+        <p>Select only 1 Lead for the team. The Leadership Team members listed below are currently unassigned.</p>
  
         <form action="/action_page.php" method="get">
     
@@ -78,7 +95,15 @@
                 <label for="lt5"> Oliver O'Connel</label><br> 
         
         </form>
-
+    </fieldset>
+</form>
+        
+<br><br><br>
+        
+<form>
+    <fieldset>
+        
+        <legend>Select Client</legend>
 
  <h3>Clients</h3>
         <p>Select only 1 client for the team. The clients listed below are currently unassigned.</p>
@@ -99,11 +124,12 @@
     
     
         </form> 
+    </fieldset>
+</form>
+<br><br><br>
     
         <input type="submit" name="Submit Team" onclick="clickAlert1()">
-        <script> hidden
-            function clickAlert1() {alert("The team has been successfully submitted!");}
-        </script>
+        
     </body>
     
 <footer>
@@ -118,3 +144,8 @@
     
  
 </html>
+
+<script> hidden
+            function clickAlert1() {alert("The team has been successfully submitted!");}
+        </script>
+
