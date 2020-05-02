@@ -47,6 +47,26 @@
 
 
 <h2>Teams Progress Report</h2>
+    <p>LT members can sumbit their team's weekly progress reports below. Make sure that your team filled out the progress report before you submit. Include your analysis in the same document as the progress report. You can review all weekly progress reports below by clicking on "View Details."</p>
+    
+<br>
+
+    <form action="/action_page.php">
+       <fieldset>
+          <legend>Submit Weekly Progress Report</legend>
+          <p>
+              <label> Enter Team Id (ex: T100000) </label>
+              <input type="text" required> <br>
+              <label> Enter Date (ex: 01/01/2020) </label>
+              <input type="text" required> <br>
+              <br>
+        <input type="file" id="myFile" name="filename">
+        <input type="submit" onclick="ABC()">
+            </p>
+       </fieldset>
+    </form>
+
+    
 <br>
 
 
@@ -54,59 +74,154 @@
 <table id="Progressreport">
   <tr>
     <th>Team</th>
-    <th>Progress Report</th> 
-    <th>Analysis by LT</th>
+    <th>Progress Report &amp; LT Analysis</th> 
   </tr>
   <tr>
     <td>Team 1</td>
-    <td>Progress Report 1&nbsp&nbsp<button type="button">View</button><br>
-      Progress Report 2&nbsp&nbsp<button type="button">View</button><br>
-      Progress Report 3&nbsp&nbsp<button type="button">View</button><br></td>
-    <td><button onclick= "reminder()">View</button> </td>
+    <td>
+        <button class="accordion">
+          View Details for 1/7/2020
+      </button>
+        <div class="panel">
+            <h4>Progress Report</h4>
+                <p>We, as Team 1, would like to report that we completed the following tasks for week 1: researched the client, held meetings with the client, and gathered more information on the client's problem.</p>
+            <h4>LT Analysis</h4>
+                <p>The team showed strong signs of collaboration and trust after week 1. They have already made headway gathering information and requirements on the client, and they are on track for understanding the current state.</p>
+        </div>
+        <button class="accordion">
+          View Details for 1/14/2020
+      </button>
+        <div class="panel">
+            <h4>Progress Report</h4>
+                <p>We, as Team 1, would like to report that we completed the following tasks for week 2: gathered more requirements, held meetings with the client, defined the problem, and have outlined the scope.</p>
+            <h4>LT Analysis</h4>
+                <p>The team are on track to have a fully completed report of the current state. They have demonstrated strong problem-solving abilities during this time, and they are asking relevant question for the client.</p>
+        </div>
+      </td>
+      
   </tr>
   <tr>
-    <td>Team 1</td>
-    <td>Progress Report 1&nbsp&nbsp<button type="button">View</button><br>
-      Progress Report 2&nbsp&nbsp<button type="button">View</button><br>
-     </td>
-    <td><button onclick= "reminder()">View</button> </td>
+    <td>Team 2</td>
+    <td>
+        <button class="accordion">
+          View Details for 1/7/2020
+      </button>
+        <div class="panel">
+            <h4>Progress Report</h4>
+                <p>We, as Team 2, would like to report that we completed the following tasks for week 1: researched the client, held meetings with the client, and gathered more information on the client's problem.</p>
+            <h4>LT Analysis</h4>
+                <p>The team showed strong signs of collaboration and trust after week 1. They have already made headway gathering information and requirements on the client, and they are on track for understanding the current state.</p>
+        </div>
+        <button class="accordion">
+          View Details for 1/14/2020
+      </button>
+        <div class="panel">
+            <h4>Progress Report</h4>
+                <p>We, as Team 2, would like to report that we completed the following tasks for week 2: gathered more requirements, held meetings with the client, defined the problem, and have outlined the scope.</p>
+            <h4>LT Analysis</h4>
+                <p>The team are on track to have a fully completed report of the current state. They have demonstrated strong problem-solving abilities during this time, and they are asking relevant question for the client.</p>
+        </div>
+      </td>
   </tr>
-  <tr>
-    <td>Team 1</td>
-    <td>Progress Report 1&nbsp&nbsp<button type="button">View</button><br>
-      Progress Report 2&nbsp&nbsp<button type="button">View</button><br>
-     </td>
-    <td><button onclick= "reminder()">View</button> </td>
-  </tr>
-   <tr>
-    <td>Team 1</td>
-    <td>Progress Report 1&nbsp&nbsp<button type="button">View</button><br>
-      Progress Report 2&nbsp&nbsp<button type="button">View</button><br>
-      Progress Report 3&nbsp&nbsp<button type="button">View</button><br></td>
-    <td><button onclick= "reminder()">View</button> </td>
-  </tr>
+<tr>
+   <td>Team 3</td>
+    <td>
+        <button class="accordion">
+          View Details for 1/7/2020
+      </button>
+        <div class="panel">
+            <h4>Progress Report</h4>
+                <p>We, as Team 3, would like to report that we completed the following tasks for week 1: researched the client, held meetings with the client, and gathered more information on the client's problem.</p>
+            <h4>LT Analysis</h4>
+                <p>The team showed strong signs of collaboration and trust after week 1. They have already made headway gathering information and requirements on the client, and they are on track for understanding the current state.</p>
+        </div>
+        <button class="accordion">
+          View Details for 1/14/2020
+      </button>
+        <div class="panel">
+            <h4>Progress Report</h4>
+                <p>We, as Team 3, would like to report that we completed the following tasks for week 2: gathered more requirements, held meetings with the client, defined the problem, and have outlined the scope.</p>
+            <h4>LT Analysis</h4>
+                <p>The team are on track to have a fully completed report of the current state. They have demonstrated strong problem-solving abilities during this time, and they are asking relevant question for the client.</p>
+        </div>
+      </td>
+</tr>
+<tr>
+   <td>Team 4</td>
+    <td>
+        <button class="accordion">
+          View Details for 1/7/2020
+      </button>
+        <div class="panel">
+            <h4>Progress Report</h4>
+                <p>We, as Team 4, would like to report that we completed the following tasks for week 1: researched the client, held meetings with the client, and gathered more information on the client's problem.</p>
+            <h4>LT Analysis</h4>
+                <p>The team showed strong signs of collaboration and trust after week 1. They have already made headway gathering information and requirements on the client, and they are on track for understanding the current state.</p>
+        </div>
+        <button class="accordion">
+          View Details for 1/14/2020
+      </button>
+        <div class="panel">
+            <h4>Progress Report</h4>
+                <p>We, as Team 4, would like to report that we completed the following tasks for week 2: gathered more requirements, held meetings with the client, defined the problem, and have outlined the scope.</p>
+            <h4>LT Analysis</h4>
+                <p>The team are on track to have a fully completed report of the current state. They have demonstrated strong problem-solving abilities during this time, and they are asking relevant question for the client.</p>
+        </div>
+      </td>
+</tr>
+    <tr>
+   <td>Team 5</td>
+    <td>
+        <button class="accordion">
+          View Details for 1/7/2020
+      </button>
+        <div class="panel">
+            <h4>Progress Report</h4>
+                <p>We, as Team 5, would like to report that we completed the following tasks for week 1: researched the client, held meetings with the client, and gathered more information on the client's problem.</p>
+            <h4>LT Analysis</h4>
+                <p>The team showed strong signs of collaboration and trust after week 1. They have already made headway gathering information and requirements on the client, and they are on track for understanding the current state.</p>
+        </div>
+        <button class="accordion">
+          View Details for 1/4/2020
+      </button>
+        <div class="panel">
+            <h4>Progress Report</h4>
+                <p>We, as Team 5, would like to report that we completed the following tasks for week 2: gathered more requirements, held meetings with the client, defined the problem, and have outlined the scope.</p>
+            <h4>LT Analysis</h4>
+                <p>The team are on track to have a fully completed report of the current state. They have demonstrated strong problem-solving abilities during this time, and they are asking relevant question for the client.</p>
+        </div>
+      </td>
+</tr>
+    <tr>
+   <td>Team 6</td>
+    <td>
+        <button class="accordion">
+          View Details for 1/7/2020
+      </button>
+        <div class="panel">
+            <h4>Progress Report</h4>
+                <p>We, as Team 6, would like to report that we completed the following tasks for week 1: researched the client, held meetings with the client, and gathered more information on the client's problem.</p>
+            <h4>LT Analysis</h4>
+                <p>The team showed strong signs of collaboration and trust after week 1. They have already made headway gathering information and requirements on the client, and they are on track for understanding the current state.</p>
+        </div>
+        <button class="accordion">
+          View Details for 1/14/2020
+      </button>
+        <div class="panel">
+            <h4>Progress Report</h4>
+                <p>We, as Team 6, would like to report that we completed the following tasks for week 2: gathered more requirements, held meetings with the client, defined the problem, and have outlined the scope.</p>
+            <h4>LT Analysis</h4>
+                <p>The team are on track to have a fully completed report of the current state. They have demonstrated strong problem-solving abilities during this time, and they are asking relevant question for the client.</p>
+        </div>
+      </td>
+</tr>
                          
 </table>
-    
-    <br><br>
-    
-<label for="PPP">Choose progress report:</label>
 
-<select id="PPP">
-  <option value="1">Team 1 Progress Report 1</option>
-  <option value="2">Team 1 Progress Report 2</option>
-  <option value="3">Team 2 Progress Report 2</option>
-  <option value="5">Team 3 Progress Report 1</option>
-<option value="6">Team 4 Progress Report 1</option>
-    <option value="7">Team 4 Progress Report 2</option>
-    
-</select>
-    
-    <button onclick= "ABC()">Send for analysis</button>
     
       <script>
 function ABC() {
-  alert("Report sent to LT members");
+  alert("Report submitted!");
 }
     </script>
                              
@@ -274,4 +389,58 @@ body {
 
 
 </style>
+    <!-- STYLE FOR ACCORDION-->
+    <style>
+              .accordion {
+                  background-color: #eee;
+                  color: #444;
+                  cursor: pointer;
+                  padding: 18px;
+                  width: 100%;
+                  text-align: left;
+                  border: none;
+                  outline: none;
+                  transition: 0.4s;
+              }
+              .active, .accordion:hover {
+                  background-color: #ccc;
+              }
+              .panel {
+                  padding: 0 18px;
+                  background-color: gainsboro;
+                  display: none;
+                  overflow: hidden;
+            }
+            .accordion:after {
+              content: '\02795'; /* Unicode character for "plus" sign (+) */
+              font-size: 13px;
+              color: #777;
+              float: right;
+              margin-left: 5px;
+            }
 
+            .active:after {
+              content: "\2796"; /* Unicode character for "minus" sign (-) */
+            }
+      </style>
+    
+    <!-- JAVASCRIPT FOR ACCORDION-->
+      <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+      </script>
