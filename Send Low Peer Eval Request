@@ -75,7 +75,7 @@ table, th, td {
     <br>
 
  <table>
-      <h3>Team 1 Scores</h3>
+      <h3>Team 1 Low Scores</h3>
         <tr>
             <th>Team Member</th>  
             <th>Final Team Grade</th>  
@@ -83,35 +83,58 @@ table, th, td {
             <th>Adjusted Score</th>
         </tr>
         <tr>
-            <td>Chad Simmons</td>
+            <td>Oliver O'Connel</td>
+            <td>95%</td>
+            <td>85%</td>
+            <td><b>80.75%</b></td>
+        </tr>
+ </table>
+          <button onclick= "submit1()">Confirm</button>
+            <script>
+                function submit1() {
+                    alert("Low scores for Team 1 have been submitted to the professor!")
+                }
+            </script>
+     <br>
+     <hr>
+<table>
+      <h3>Team 2 Low Scores</h3>
+        <tr>
+            <th>Team Member</th>  
+            <th>Final Team Grade</th>  
+            <th>Peer Eval Grade</th>
+            <th>Adjusted Score</th>
+        </tr>
+        <tr>
+            <td>Christie Crawford</td>
             <td>80%</td>
             <td>85%</td>
             <td><b>68%</b></td>
         </tr>
         <tr>
-            <td>Gerard Squires</td>
+            <td>Fred Fitzgerald</td>
             <td>80%</td>
             <td>80%</td>
             <td><b>64%</b></td>
         </tr>
         <tr>
-         <td>Zach Mathes</td>
+         <td>Grace Ge</td>
             <td>80%</td>
             <td>below 80%</td>
             <td><b>55%</b></td>
         </tr>    
 </table>
-<button onclick= "submit1()">Confirm</button>
+<button onclick= "submit2()">Confirm</button>
             <script>
-                function submit1() {
-                    alert("Low scores for Team Roosiers have been submitted to the professor!")
+                function submit2() {
+                    alert("Low scores for Team 2 have been submitted to the professor!")
                 }
             </script>
 <br>
 <hr>
     
 <table>
-    <h3>Team 2 Scores</h3>
+    <h3>Team 3 Low Scores</h3>
      <tr>
         <th>Team Member</th>  
         <th>Final Team Grade</th>  
@@ -119,29 +142,29 @@ table, th, td {
         <th>Adjusted Score</th>
     </tr>
     <tr>
-        <td>John Benner</td>
+        <td>Heather Hills</td>
         <td>85%</td>
         <td>80%</td>
         <td><b>68%</b></td>
     </tr>    
     <tr>
-        <td>Sue Lee</td>
+        <td>Isaac Idris</td>
         <td>85%</td>
         <td>80%</td>
         <td><b>68%</b></td>
     </tr>
 </table>
-<button onclick= "submit2()">Confirm</button>
+<button onclick= "submit3()">Confirm</button>
             <script>
-                function submit2() {
-                    alert("Low scores for Team Mercury have been submitted to the professor!")
+                function submit3() {
+                    alert("Low scores for Team 3 have been submitted to the professor!")
                 }
             </script>
 <br>
 <hr>
 
 <table>
-    <h3>Team 3 Scores</h3>
+    <h3>Team 4 Low Scores</h3>
      <tr>
         <th>Team Member</th>  
         <th>Final Team Grade</th>  
@@ -149,20 +172,47 @@ table, th, td {
         <th>Adjusted Score</th>
     </tr>
     <tr>
-        <td>Aaron Kendricks</td>
-        <td>100%</td>
+        <td>Ronda Rousey</td>
+        <td>90%</td>
+        <td>below 80%</td>
+        <td><b>65%</b></td>
+    </tr>
+     <tr>
+        <td>Terry Tots</td>
+        <td>90%</td>
         <td>85%</td>
-        <td><b>85%</b></td>
+        <td><b>76.5%</b></td>
     </tr>
 </table>
-<button onclick= "submit3()">Confirm</button>
+<button onclick= "submit4()">Confirm</button>
             <script>
-                function submit3() {
-                    alert("Low scores for Team Prototypers have been submitted to the professor!")
+                function submit4() {
+                    alert("Low scores for Team 4 have been submitted to the professor!")
                 }
             </script>
-
-    <br>
+<br>
+    <hr>
+<table>
+    <h3>Team 5 Low Scores</h3>
+     <tr>
+        <th>Team Member</th>  
+        <th>Final Team Grade</th>  
+        <th>Peer Eval Grade</th>
+        <th>Adjusted Score</th>
+    </tr>
+    <tr>
+        <td>Wendy Worst</td>
+        <td>100%</td>
+        <td>below 80%</td>
+        <td><b>75%</b></td>
+    </tr>
+</table>
+<button onclick= "submit5()">Confirm</button>
+            <script>
+                function submit5() {
+                    alert("Low scores for Team 5 have been submitted to the professor!")
+                }
+            </script>
 
 
     
