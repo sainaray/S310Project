@@ -4,9 +4,8 @@
   <meta charset="utf-8">
     
     <head>
-        <title>GLOBASE Guatemala</title>
+       <link rel="stylesheet" href="create_task.css">
     </head>
-<body>
     
  
         <h1>GLOBASE Guatemala</h1>
@@ -17,15 +16,8 @@
     <a href="Participant_page.html">Participant</a>
     <a href="Leadership_team_page">Leadership team</a> 
     </nav>
+                                
                                  
-</body>
-                                 
-    
-  <title>Student Page</title>
-    
-    
-</head>
-<body>
 
 
     
@@ -34,12 +26,9 @@
     <p>Potential clients that have already been interviewed for the program are listed below. Click on "View Details" to view the potential client's application and interview summary. You will find the "Accept", "Reject", and "Waitlist" buttons after viewing.</p>
     
     <p>Remember to read and assess the applicant's details before accepting or rejecting! </p>
-
     
+  <body>
     
-    
-    
-  
   <h2>Potential Clients</h2>
   <ul>
       
@@ -214,69 +203,10 @@
                     function clickAlert1() {alert("Are you sure you want to waitlist? The client will be notified immediately.");}
                   </script>
         </div>
-
-
       
 </ul>
 
-    
-
-    <!-- STYLE FOR ACCORDION-->
-    <style>
-              .accordion {
-                  background-color: #eee;
-                  color: #444;
-                  cursor: pointer;
-                  padding: 18px;
-                  width: 100%;
-                  text-align: left;
-                  border: none;
-                  outline: none;
-                  transition: 0.4s;
-              }
-              .active, .accordion:hover {
-                  background-color: #ccc;
-              }
-              .panel {
-                  padding: 0 18px;
-                  background-color: gainsboro;
-                  display: none;
-                  overflow: hidden;
-            }
-            .accordion:after {
-              content: '\02795'; /* Unicode character for "plus" sign (+) */
-              font-size: 13px;
-              color: #777;
-              float: right;
-              margin-left: 5px;
-            }
-
-            .active:after {
-              content: "\2796"; /* Unicode character for "minus" sign (-) */
-            }
-      </style>
-    
-    <!-- JAVASCRIPT FOR ACCORDION-->
-      <script>
-          var acc = document.getElementsByClassName("accordion");
-          var i;
-            for (i = 0; i < acc.length; i++) {
-              acc[i].addEventListener("click", function() {
-                /* Toggle between adding and removing the "active" class,
-                to highlight the button that controls the panel */
-                this.classList.toggle("active");
-
-                /* Toggle between hiding and showing the active panel */
-                var panel = this.nextElementSibling;
-                if (panel.style.display === "block") {
-                  panel.style.display = "none";
-                } else {
-                  panel.style.display = "block";
-                }
-              });
-            }
-      </script>
-  
+  </body>
 
     
 <footer>
@@ -289,5 +219,4 @@
 </footer>
      
     
-    </body>
 </html>
