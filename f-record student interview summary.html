@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="create_task.css">
+        <div class="header1">
+  
+    <img src="IUB.png" alt="logo Icon" style="width:60px;height:60px;" class="left">
+    <h1 class="thin">INDIANA UNIVERSITY</h1>
+    
+</div>
+<div class="header2">
+    <h5 class="thin">KELLEY SCHOOL OF BUSINESS</h5>
+    <h2>Globase Guatamala</h2>
+</div>
+
+<div class="navbar">
+  <a href="#home">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Faculty 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+    <div class="dropdown">
+    <button class="dropbtn">Leadership Team 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+    <div class="dropdown">
+    <button class="dropbtn">Participant 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+</div>
+    </head>
+<body>
+        
+    <br>
+    
+<h2>Record Student Interview Summary</h2>
+    <br>
+
+<h4>Please record Student Interviews below. Start by entering the Student Name, ID, Year, and Date of the Interview. Record details about the student under the Notes/Summary. Finally, select the status of their application as either "Accept" or "Deny" once the interview has been completed.</h4>
+    
+    <h5> Don't leave out any information!</h5>
+
+    <br>
+    <form>
+       <fieldset>
+           <legend>Record Student Interview Summary </legend>
+          <p>
+             <label>Name:</label>
+             <input type="text" required>
+              <label>Student ID:</label>
+              <input type="text" required> <br> <br>
+              <label>School Year: </label>
+              <select id = "myList1">
+               <option value = "Select an Option">Select an Option</option>
+               <option value = "1st Year Student">1st Year Student</option>
+               <option value = "2nd Year Student">2nd Year Student</option>
+             </select>
+              <label>Interview Date:</label>
+              <input type="date" required> <br> <br>
+              <style>
+                  label textarea{
+                      vertical-align: top;
+                  }
+              </style>
+              <label>Interview Notes/Summary:
+                  <textarea name="interview_notes" rows="10" cols="70"> Enter your notes here. </textarea> </label> <br> <br><br>
+              
+              <button class="button" onclick= "submit1()">Submit Student Interview</button>
+              <script> 
+                function submit1() {
+                    alert("Student Interview has been successfully submitted!")
+                }
+              
+              </script>
+            </p>
+       </fieldset>
+    </form>
+                                 
+<footer>
+       <div class="header1">
+  
+    <img src="IUB.png" alt="logo Icon" style="width:100px;height:100px;" class="left">
+        <div class="row">
+  <h1 class="rightthin">INDIANA UNIVERSITY</h1>
+    <h2 class="rightthin">Team 15 Consulting</h2>
+        
+        
+    
+        </div></div>
+      </footer>
+
+</body>
+   </html>
