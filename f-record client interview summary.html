@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <title>GLOBASE Guatemala</title>
+    </head>
+<body>
+    
+ 
+ 
+
+
+                                     
+
+    <br>
+    
+<h1>Record Client Interview Summary</h1>
+ 
+
+<p>Please record the client's interview below. Start by entering the client's information. Click the "Submit Interview" button to submit. </p>
+    
+    <p> Don't leave out any information!</p>
+
+    <br>
+    <form>
+       <fieldset>
+           <legend>Record Client Interview Summary </legend>
+          <p>
+             <label>Company Name:</label>
+             <input type="text" required>
+             <label>Semester:</label>
+             <select id = "myList">
+               <option value = "FA2020">FA2020</option>
+               <option value = "SP2021">SP2021</option>
+             </select> <br> <br>
+              <label>Interview Date:</label>
+              <input type="date" required> <br> <br>
+              <style>
+                  label textarea{
+                      vertical-align: top;
+                  }
+              </style>
+              <label>Interview Notes/Summary:
+                  <textarea name="interview_notes" rows="10" cols="70"> Enter your notes here. </textarea> </label> <br> <br> 
+              <button onclick= "submit1()" class="button">Submit Student Interview</button>
+              <script> 
+                function submit1() {
+                    alert("Client Interview has been successfully submitted!")
+                }
+              
+              </script>
+            </p>
+       </fieldset>
+    </form>
+
+                                 
+<footer>
+    <hr>
+    <h3>
+        <p> Team 15 Consulting </p>
+        <br>
+    Kelley School of Business
+        
+    </h3>
+      </footer>
+
+</body>
+   </html>
